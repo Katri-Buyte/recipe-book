@@ -197,7 +197,7 @@
 
   function barHtml(label, value, target, unit) {
     const pct = target ? value / target : 0;
-    const state = pct > 1.08 ? 'over' : pct < 0.85 ? 'under' : 'ok';
+    const state = pct > 1.08 && label !== 'Protein' ? 'over' : pct < 0.85 ? 'under' : 'ok';
     return `<div class="bar ${state}">
       <div class="bar-top"><span>${label}</span><b>${Math.round(value).toLocaleString('en-GB')}${unit}<small> / ${target.toLocaleString('en-GB')}${unit}</small></b></div>
       <div class="bar-track"><i style="width:${Math.min(100, pct * 100).toFixed(1)}%"></i></div>
