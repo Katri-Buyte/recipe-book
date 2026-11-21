@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Katerina's Kitchen · Recipe Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght,SOFT@9..144,400..900,0..100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-left" aria-label="Main">
+      <a href="#/">Home</a>
+      <a href="#/recipes">Recipes</a>
+    </nav>
+    <a class="logo" href="#/" aria-label="Katerina's Kitchen, home">
+      <span class="logo-name">Katerina's<br>Kitchen</span>
+      <span class="logo-sub">Recipe book</span>
+    </a>
+    <form class="search" role="search" onsubmit="return false">
+      <label class="sr-only" for="search">Search recipes</label>
+      <input id="search" type="search" placeholder="Search recipes" autocomplete="off">
+    </form>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <span>Katerina's Kitchen</span>
+    <span id="footer-count"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
