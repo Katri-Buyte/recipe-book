@@ -1,0 +1,632 @@
+{
+  "targets": {
+    "calories": 1600,
+    "protein": 120,
+    "carbs": 160,
+    "fat": 53
+  },
+  "foods": {
+    "greek-yogurt-2": {
+      "name": "Greek yogurt 2%",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 73,
+        "protein": 10,
+        "carbs": 3,
+        "fat": 2,
+        "fiber": 0
+      }
+    },
+    "oats": {
+      "name": "rolled oats",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 379,
+        "protein": 13,
+        "carbs": 68,
+        "fat": 6.5,
+        "fiber": 10
+      }
+    },
+    "strawberries": {
+      "name": "strawberries",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 32,
+        "protein": 0.7,
+        "carbs": 7.7,
+        "fat": 0.3,
+        "fiber": 2
+      }
+    },
+    "honey": {
+      "name": "honey",
+      "unit": "tsp",
+      "per": 1,
+      "macros": {
+        "calories": 21,
+        "protein": 0,
+        "carbs": 5.7,
+        "fat": 0,
+        "fiber": 0
+      }
+    },
+    "egg": {
+      "name": "boiled egg",
+      "unit": "piece",
+      "per": 1,
+      "macros": {
+        "calories": 72,
+        "protein": 6.3,
+        "carbs": 0.4,
+        "fat": 4.8,
+        "fiber": 0
+      }
+    },
+    "bread": {
+      "name": "wholegrain bread",
+      "unit": "slice",
+      "per": 1,
+      "macros": {
+        "calories": 98,
+        "protein": 4.5,
+        "carbs": 16,
+        "fat": 1.5,
+        "fiber": 2.8
+      }
+    },
+    "avocado": {
+      "name": "avocado",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 160,
+        "protein": 2,
+        "carbs": 8.5,
+        "fat": 14.7,
+        "fiber": 6.7
+      }
+    },
+    "almonds": {
+      "name": "almonds",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 579,
+        "protein": 21,
+        "carbs": 21.6,
+        "fat": 50,
+        "fiber": 12.5
+      }
+    },
+    "apple": {
+      "name": "apple",
+      "unit": "piece",
+      "per": 1,
+      "macros": {
+        "calories": 94,
+        "protein": 0.5,
+        "carbs": 25,
+        "fat": 0.3,
+        "fiber": 4.4
+      }
+    },
+    "banana": {
+      "name": "banana",
+      "unit": "piece",
+      "per": 1,
+      "macros": {
+        "calories": 107,
+        "protein": 1.3,
+        "carbs": 27,
+        "fat": 0.4,
+        "fiber": 3.1
+      }
+    },
+    "protein-pudding": {
+      "name": "protein pudding",
+      "unit": "pot",
+      "per": 1,
+      "macros": {
+        "calories": 150,
+        "protein": 20,
+        "carbs": 12,
+        "fat": 3,
+        "fiber": 0
+      }
+    },
+    "feta": {
+      "name": "feta",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 264,
+        "protein": 14.2,
+        "carbs": 3.9,
+        "fat": 21.3,
+        "fiber": 0
+      }
+    },
+    "salad": {
+      "name": "tomato and cucumber salad with 1 tsp olive oil",
+      "unit": "bowl",
+      "per": 1,
+      "macros": {
+        "calories": 76,
+        "protein": 1.6,
+        "carbs": 7,
+        "fat": 4.8,
+        "fiber": 2
+      }
+    }
+  },
+  "weeks": [
+    {
+      "start": "2026-11-23",
+      "days": [
+        {
+          "date": "2026-11-23",
+          "prep": "Cook the kreatosoupa (7 servings). Keep 3 in the fridge for Mon, Tue and Thu and freeze the rest.",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Yogurt bowl",
+                "items": [
+                  {
+                    "food": "greek-yogurt-2",
+                    "amount": 200,
+                    "label": "200 g Greek yogurt 2%"
+                  },
+                  {
+                    "food": "oats",
+                    "amount": 30,
+                    "label": "30 g oats"
+                  },
+                  {
+                    "food": "strawberries",
+                    "amount": 100,
+                    "label": "100 g strawberries"
+                  },
+                  {
+                    "food": "honey",
+                    "amount": 1,
+                    "label": "1 tsp honey"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "kreatosoupa-beef-soup",
+                "portion": 1
+              }
+            ],
+            "snacks": [
+              {
+                "food": "apple",
+                "amount": 1,
+                "label": "1 apple"
+              },
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              },
+              {
+                "food": "almonds",
+                "amount": 15,
+                "label": "15 g almonds"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "melitzanosalata",
+                "portion": 1
+              },
+              {
+                "food": "bread",
+                "amount": 2,
+                "label": "2 slices wholegrain bread"
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-11-24",
+          "prep": "Soak the gigantes overnight (Monday night) so they can bake this evening. Half goes to Wednesday's lunch.",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Eggs and toast",
+                "items": [
+                  {
+                    "food": "egg",
+                    "amount": 2,
+                    "label": "2 boiled eggs"
+                  },
+                  {
+                    "food": "bread",
+                    "amount": 1,
+                    "label": "1 slice wholegrain bread"
+                  },
+                  {
+                    "food": "avocado",
+                    "amount": 40,
+                    "label": "40 g avocado"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "kreatosoupa-beef-soup",
+                "portion": 1
+              }
+            ],
+            "snacks": [
+              {
+                "food": "greek-yogurt-2",
+                "amount": 170,
+                "label": "170 g Greek yogurt 2%"
+              },
+              {
+                "food": "apple",
+                "amount": 1,
+                "label": "1 apple"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "gigantes-plaki",
+                "portion": 0.5
+              },
+              {
+                "food": "bread",
+                "amount": 1,
+                "label": "1 slice wholegrain bread"
+              },
+              {
+                "food": "banana",
+                "amount": 1,
+                "label": "1 banana"
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-11-25",
+          "prep": "Make the cottage cheese lasagna (12 portions). Freeze what you will not eat on Wed, Thu and Sun.",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Yogurt bowl",
+                "items": [
+                  {
+                    "food": "greek-yogurt-2",
+                    "amount": 250,
+                    "label": "250 g Greek yogurt 2%"
+                  },
+                  {
+                    "food": "oats",
+                    "amount": 30,
+                    "label": "30 g oats"
+                  },
+                  {
+                    "food": "banana",
+                    "amount": 0.5,
+                    "label": "½ banana, sliced"
+                  },
+                  {
+                    "food": "honey",
+                    "amount": 1,
+                    "label": "1 tsp honey"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "gigantes-plaki",
+                "portion": 0.5
+              },
+              {
+                "food": "egg",
+                "amount": 2,
+                "label": "2 boiled eggs"
+              },
+              {
+                "food": "bread",
+                "amount": 1,
+                "label": "1 slice wholegrain bread"
+              }
+            ],
+            "snacks": [
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              },
+              {
+                "food": "greek-yogurt-2",
+                "amount": 170,
+                "label": "170 g Greek yogurt 2%"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "cottage-cheese-lasagna",
+                "portion": 1
+              },
+              {
+                "food": "salad",
+                "amount": 1,
+                "label": "Tomato and cucumber salad, 1 tsp olive oil"
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-11-26",
+          "prep": "",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Avocado toast with egg",
+                "items": [
+                  {
+                    "food": "bread",
+                    "amount": 2,
+                    "label": "2 slices wholegrain bread"
+                  },
+                  {
+                    "food": "avocado",
+                    "amount": 50,
+                    "label": "50 g avocado, mashed"
+                  },
+                  {
+                    "food": "egg",
+                    "amount": 1,
+                    "label": "1 boiled egg"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "cottage-cheese-lasagna",
+                "portion": 1
+              },
+              {
+                "food": "salad",
+                "amount": 1,
+                "label": "Tomato and cucumber salad, 1 tsp olive oil"
+              }
+            ],
+            "snacks": [
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              },
+              {
+                "food": "banana",
+                "amount": 1,
+                "label": "1 banana"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "kreatosoupa-beef-soup",
+                "portion": 1
+              },
+              {
+                "food": "apple",
+                "amount": 1,
+                "label": "1 apple"
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-11-27",
+          "prep": "Cook the fakes for lunch and the kelaidi for dinner. Kelaidi leftovers are Saturday's lunch.",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Yogurt bowl",
+                "items": [
+                  {
+                    "food": "greek-yogurt-2",
+                    "amount": 200,
+                    "label": "200 g Greek yogurt 2%"
+                  },
+                  {
+                    "food": "oats",
+                    "amount": 30,
+                    "label": "30 g oats"
+                  },
+                  {
+                    "food": "strawberries",
+                    "amount": 100,
+                    "label": "100 g strawberries"
+                  },
+                  {
+                    "food": "honey",
+                    "amount": 1,
+                    "label": "1 tsp honey"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "fakes-lentil-soup",
+                "portion": 0.5
+              },
+              {
+                "food": "feta",
+                "amount": 30,
+                "label": "30 g feta"
+              },
+              {
+                "food": "bread",
+                "amount": 1,
+                "label": "1 slice wholegrain bread"
+              }
+            ],
+            "snacks": [
+              {
+                "food": "greek-yogurt-2",
+                "amount": 170,
+                "label": "170 g Greek yogurt 2%"
+              },
+              {
+                "food": "apple",
+                "amount": 1,
+                "label": "1 apple"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "kelaidi",
+                "portion": 0.8
+              },
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-11-28",
+          "prep": "Cook the giouvetsi in the afternoon (about 2.5 hours). Leftovers are Sunday's lunch.",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Yogurt bowl",
+                "items": [
+                  {
+                    "food": "greek-yogurt-2",
+                    "amount": 200,
+                    "label": "200 g Greek yogurt 2%"
+                  },
+                  {
+                    "food": "oats",
+                    "amount": 30,
+                    "label": "30 g oats"
+                  },
+                  {
+                    "food": "banana",
+                    "amount": 0.5,
+                    "label": "½ banana, sliced"
+                  },
+                  {
+                    "food": "honey",
+                    "amount": 1,
+                    "label": "1 tsp honey"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "kelaidi",
+                "portion": 0.8
+              }
+            ],
+            "snacks": [
+              {
+                "food": "apple",
+                "amount": 1,
+                "label": "1 apple"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "beef-giouvetsi",
+                "portion": 1
+              },
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-11-29",
+          "prep": "",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Yogurt bowl",
+                "items": [
+                  {
+                    "food": "greek-yogurt-2",
+                    "amount": 200,
+                    "label": "200 g Greek yogurt 2%"
+                  },
+                  {
+                    "food": "oats",
+                    "amount": 30,
+                    "label": "30 g oats"
+                  },
+                  {
+                    "food": "strawberries",
+                    "amount": 100,
+                    "label": "100 g strawberries"
+                  },
+                  {
+                    "food": "honey",
+                    "amount": 1,
+                    "label": "1 tsp honey"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "beef-giouvetsi",
+                "portion": 1
+              }
+            ],
+            "snacks": [
+              {
+                "food": "greek-yogurt-2",
+                "amount": 170,
+                "label": "170 g Greek yogurt 2%"
+              },
+              {
+                "food": "apple",
+                "amount": 1,
+                "label": "1 apple"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "cottage-cheese-lasagna",
+                "portion": 1
+              },
+              {
+                "food": "salad",
+                "amount": 1,
+                "label": "Tomato and cucumber salad, 1 tsp olive oil"
+              },
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
   const app = document.getElementById('app');
   const searchInput = document.getElementById('search');
   let DATA = { categories: [], recipes: [] };
+  let PLANS = { weeks: [] };
   let activeCategory = 'all';
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => (
@@ -154,12 +155,125 @@
     document.getElementById('more').onclick = () => set(servings + 1);
   }
 
+  /* Meal plan */
+  const MEALS = [['breakfast', 'Breakfast'], ['lunch', 'Lunch'], ['snacks', 'Snacks'], ['dinner', 'Dinner']];
+  const MKEYS = ['calories', 'protein', 'carbs', 'fat', 'fiber'];
+  const parseDate = (s) => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
+  const todayIso = () => { const t = new Date(); return `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`; };
+  const fmtDay = (s) => parseDate(s).toLocaleDateString('en-GB', { weekday: 'long' });
+  const fmtShort = (s) => parseDate(s).toLocaleDateString('en-GB', { day: 'numeric', month: 'long' });
+  const flatItems = (list) => (list || []).flatMap((x) => (x.group ? x.items : [x]));
+  const portionLabel = (p) => (p === 1 ? '1 serving' : `${fmtQty(p, '')} serving`);
+
+  function itemMacros(it) {
+    if (it.recipe) {
+      const rec = DATA.recipes.find((r) => r.id === it.recipe);
+      const m = (rec && rec.macros) || {};
+      return MKEYS.map((k) => (m[k] || 0) * (it.portion ?? 1));
+    }
+    const f = (PLANS.foods || {})[it.food];
+    if (!f) return MKEYS.map(() => 0);
+    return MKEYS.map((k) => (f.macros[k] || 0) * (it.amount ?? 1) / (f.per || 1));
+  }
+  const sumItems = (items) => items.reduce((t, it) => itemMacros(it).map((v, n) => t[n] + v), MKEYS.map(() => 0));
+  const dayTotals = (d) => sumItems(MEALS.flatMap(([k]) => flatItems(d.meals[k])));
+
+  function itemHtml(it) {
+    if (it.recipe) {
+      const rec = DATA.recipes.find((r) => r.id === it.recipe);
+      const name = rec ? rec.title : it.recipe;
+      return `<li><a href="#/recipe/${encodeURIComponent(it.recipe)}">${esc(name)}</a> <span class="portion">${esc(portionLabel(it.portion ?? 1))}</span></li>`;
+    }
+    const f = (PLANS.foods || {})[it.food] || {};
+    return `<li>${esc(it.label || `${it.amount} ${f.unit || ''} ${f.name || it.food}`)}</li>`;
+  }
+
+  function mealHtml(list) {
+    if (!list || !list.length) return '<p class="meal-empty">Nothing planned</p>';
+    return list.map((x) => (x.group
+      ? `<div class="meal-group"><p class="meal-group-name">${esc(x.group)}</p><ul>${x.items.map(itemHtml).join('')}</ul></div>`
+      : `<ul>${itemHtml(x)}</ul>`)).join('');
+  }
+
+  function barHtml(label, value, target, unit) {
+    const pct = target ? value / target : 0;
+    const state = pct > 1.08 ? 'over' : pct < 0.85 ? 'under' : 'ok';
+    return `<div class="bar ${state}">
+      <div class="bar-top"><span>${label}</span><b>${Math.round(value).toLocaleString('en-GB')}${unit}<small> / ${target.toLocaleString('en-GB')}${unit}</small></b></div>
+      <div class="bar-track"><i style="width:${Math.min(100, pct * 100).toFixed(1)}%"></i></div>
+    </div>`;
+  }
+
+  const totalsHtml = (t, T) => barHtml('Kcal', t[0], T.calories, '') + barHtml('Protein', t[1], T.protein, ' g') + barHtml('Carbs', t[2], T.carbs, ' g') + barHtml('Fat', t[3], T.fat, ' g') +
+    `<p class="fibre">Fibre ${Math.round(t[4])} g</p>`;
+
+  function pickWeek(start) {
+    const weeks = [...(PLANS.weeks || [])].sort((a, b) => a.start.localeCompare(b.start));
+    if (!weeks.length) return { weeks, week: null };
+    if (start) return { weeks, week: weeks.find((w) => w.start === start) || null };
+    const today = todayIso();
+    const end = (w) => w.days[w.days.length - 1].date;
+    return { weeks, week: weeks.find((w) => w.start <= today && end(w) >= today) || weeks.find((w) => w.start > today) || weeks[weeks.length - 1] };
+  }
+
+  function renderPlan(start) {
+    document.title = "Meal plan · Katerina's Kitchen";
+    const { weeks, week } = pickWeek(start);
+    if (!week) { app.innerHTML = `<section class="plan"><p class="empty">No meal plan yet.</p></section>`; return; }
+    const T = PLANS.targets;
+    const idx = weeks.indexOf(week), prev = weeks[idx - 1], next = weeks[idx + 1];
+    const totals = week.days.map(dayTotals);
+    const avg = MKEYS.map((_, n) => totals.reduce((s, t) => s + t[n], 0) / totals.length);
+    const today = todayIso();
+    const last = week.days[week.days.length - 1].date;
+    app.innerHTML = `
+      <section class="plan">
+        <div class="plan-head">
+          <div>
+            <p class="eyebrow">Meal plan</p>
+            <h1>${esc(week.start.slice(0, 7) === last.slice(0, 7) ? String(parseDate(week.start).getDate()) : fmtShort(week.start))} to ${esc(fmtShort(last))}</h1>
+          </div>
+          <nav class="week-nav" aria-label="Weeks">
+            ${prev ? `<a class="link-underline" href="#/plan/${prev.start}">← Previous week</a>` : ''}
+            ${next ? `<a class="link-underline" href="#/plan/${next.start}">Next week →</a>` : ''}
+          </nav>
+        </div>
+        <section class="plan-summary" aria-label="Daily average this week">
+          <p class="plan-summary-title">Daily average<span>Target ${T.calories.toLocaleString('en-GB')} kcal · ${T.protein} g protein · ${T.carbs} g carbs · ${T.fat} g fat</span></p>
+          <div class="plan-summary-bars">${totalsHtml(avg, T)}</div>
+        </section>
+        <div class="days">
+          ${week.days.map((d, n) => `
+            <article class="day${d.date === today ? ' is-today' : ''}" id="day-${d.date}">
+              <header class="day-head">
+                <h2>${esc(fmtDay(d.date))}</h2>
+                <p>${esc(fmtShort(d.date))}${d.date === today ? ' · <strong>Today</strong>' : ''}</p>
+              </header>
+              <div class="day-meals">
+                ${MEALS.map(([k, label]) => `<section class="meal"><h3>${label}</h3>${mealHtml(d.meals[k])}</section>`).join('')}
+                ${d.prep ? `<p class="prep"><b>Prep</b>${esc(d.prep)}</p>` : ''}
+              </div>
+              <div class="day-totals">${totalsHtml(totals[n], T)}</div>
+            </article>`).join('')}
+        </div>
+        ${PLANS.note ? `<p class="plan-note">${esc(PLANS.note)}</p>` : ''}
+      </section>`;
+    const t = document.getElementById(`day-${today}`);
+    if (t && !start) t.scrollIntoView({ block: 'start' });
+  }
+
   function route() {
     const hash = location.hash.replace(/^#\/?/, '');
     document.title = "Katerina's Kitchen · Recipe Book";
-    if (hash.startsWith('recipe/')) renderRecipe(decodeURIComponent(hash.slice(7)));
-    else renderList();
+    const onPlan = hash.startsWith('plan');
+    document.querySelectorAll('[data-nav]').forEach((a) => {
+      const active = a.dataset.nav === (onPlan ? 'plan' : 'recipes');
+      if (active) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
     window.scrollTo(0, 0);
+    if (hash.startsWith('recipe/')) renderRecipe(decodeURIComponent(hash.slice(7)));
+    else if (onPlan) renderPlan(hash.split('/')[1] || '');
+    else renderList();
   }
 
   app.addEventListener('click', (e) => {
@@ -171,17 +285,18 @@
   });
 
   searchInput.addEventListener('input', () => {
-    if (location.hash.startsWith('#/recipe/') || !document.getElementById('grid')) { location.hash = '#/recipes'; return; }
+    if (!document.getElementById('grid')) { location.hash = '#/recipes'; return; }
     document.getElementById('grid').innerHTML = gridHtml();
     if (!location.hash.includes('recipes')) document.getElementById('recipes')?.scrollIntoView({ block: 'start' });
   });
 
   window.addEventListener('hashchange', route);
 
-  fetch('data/recipes.json', { cache: 'no-cache' })
-    .then((res) => { if (!res.ok) throw new Error(res.status); return res.json(); })
-    .then((d) => {
+  const getJson = (url) => fetch(url, { cache: 'no-cache' }).then((res) => { if (!res.ok) throw new Error(res.status); return res.json(); });
+  Promise.all([getJson('data/recipes.json'), getJson('data/plans.json').catch(() => ({ weeks: [] }))])
+    .then(([d, p]) => {
       DATA = d;
+      PLANS = p;
       route();
     })
     .catch(() => { app.innerHTML = '<section class="recipe"><p class="empty">Could not load the recipes file.</p></section>'; });

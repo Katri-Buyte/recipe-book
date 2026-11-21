@@ -13,7 +13,8 @@
 <body>
   <header class="site-header">
     <nav class="nav-left" aria-label="Main">
-      <a href="#/">All recipes</a>
+      <a href="#/" data-nav="recipes">Recipes</a>
+      <a href="#/plan" data-nav="plan">Meal plan</a>
     </nav>
     <a class="logo" href="#/" aria-label="Katerina's Kitchen, home">
       <span class="logo-name">Katerina's<br>Kitchen</span>
@@ -21,7 +22,7 @@
     </a>
     <form class="search" role="search" onsubmit="return false">
       <label class="sr-only" for="search">Search recipes</label>
-      <input id="search" type="search" placeholder="Search recipes" autocomplete="off">
+      <input id="search" type="search" placeholder="Search" autocomplete="off">
     </form>
   </header>
 
