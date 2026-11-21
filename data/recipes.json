@@ -43,6 +43,84 @@
   ],
   "recipes": [
     {
+      "id": "trahanas-soup",
+      "title": "Trahanas soup with feta",
+      "category": "soups-legumes",
+      "description": "Sour trahanas simmered with goat milk and finished with sheep and goat butter, feta and lots of black pepper.",
+      "added": "2026-11-22",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "tags": [
+        "greek",
+        "vegetarian",
+        "comfort food",
+        "quick"
+      ],
+      "source": {
+        "name": "Gastronomos, Nena Ismyrnoglou",
+        "url": "https://www.gastronomos.gr/syntagh/o-apolytos-paradosiakos-trachanas/246389/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "sour trahanas, flour-based",
+          "note": "1 teacup, about 250 ml"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "small onion",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "fresh goat milk"
+        },
+        {
+          "qty": 750,
+          "unit": "ml",
+          "item": "water",
+          "note": "hot"
+        },
+        {
+          "qty": 120,
+          "unit": "g",
+          "item": "feta",
+          "note": "coarsely crumbled"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "sheep and goat butter",
+          "note": "the kind sold in a jar"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and freshly ground black pepper"
+        }
+      ],
+      "steps": [
+        "Melt half the butter in a medium pot over medium heat and soften the onion for about 5 minutes.",
+        "Add the trahanas and stir until it is coated in butter. Pour in the milk and hot water and cook for 1 to 2 minutes until it comes to a boil.",
+        "Lower the heat slightly and cook for about 15 minutes more, until the trahanas is soft and the soup has thickened.",
+        "Stir in the rest of the butter, the feta, salt and plenty of black pepper, then take off the heat."
+      ],
+      "notes": "Cooking time depends on the trahanas (homemade, size, how dry it is), so keep an eye on it the first time. Hard feta keeps some bite, soft feta melts in. Chilli flakes (boukovo) are a good alternative to the pepper. Variation: boil the trahanas with the milk, butter, salt and hot water for 15 minutes. Separately soften the onion in 30 ml olive oil for 4 to 5 minutes, stir in 80 g dry mizithra and add it to the pot. Finish with dried mint or oregano, lemon zest and chilli flakes. The source gives no servings; 4 is my assumption. Macros are estimated from the ingredients.",
+      "macros": {
+        "calories": 350,
+        "protein": 12,
+        "carbs": 32,
+        "fat": 20,
+        "fiber": 2
+      },
+      "macrosEstimated": true
+    },
+    {
       "id": "kelaidi",
       "title": "Kelaidi, beef and pepper bake",
       "category": "mains",
