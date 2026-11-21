@@ -60,12 +60,8 @@
   function renderList() {
     app.innerHTML = `
       <section class="collection full">
-        <div class="intro">
-          <p class="eyebrow">All recipes</p>
-          <h2>The whole book.</h2>
-          ${SQUIGGLE('#8566ad')}
-          ${chips()}
-        </div>
+        <h1 class="sr-only">All recipes</h1>
+        <div class="intro">${chips()}</div>
         <div class="grid" id="grid">${gridHtml()}</div>
       </section>`;
   }
