@@ -61,7 +61,7 @@
         "name": "Gastronomos, Nena Ismyrnoglou",
         "url": "https://www.gastronomos.gr/syntagh/o-apolytos-paradosiakos-trachanas/246389/"
       },
-      "image": "",
+      "image": "https://www.gastronomos.gr/wp-content/uploads/2024/01/og-o-apolytos-paradosiakos-trachanas-4-Gastronomos-1200x630.jpg",
       "ingredients": [
         {
           "qty": 150,
@@ -139,7 +139,7 @@
         "name": "Giorgos Tsoulis",
         "url": "https://www.giorgostsoulis.com/syntages/kyrios-gevmata/kelaidi"
       },
-      "image": "",
+      "image": "https://api.giorgostsoulis.com/storage/media/recipe/1096/conversions/f66da0157e88ccf3deb2fbdbfc220fe0_XL-large.jpg",
       "ingredients": [
         {
           "qty": 2,
@@ -214,7 +214,7 @@
         "name": "Oh Snap Macros",
         "url": "https://ohsnapmacros.com/cottage-cheese-lasagna/"
       },
-      "image": "",
+      "image": "https://ohsnapmacros.com/wp-content/uploads/2024/01/cottagecheeselasagna.jpg",
       "ingredients": [
         {
           "qty": 1,
@@ -387,7 +387,7 @@
         "name": "The Big Man's World",
         "url": "https://thebigmansworld.com/2-ingredient-naan/"
       },
-      "image": "",
+      "image": "https://thebigmansworld.com/wp-content/uploads/2020/03/2-ingredient-naan-bread-7.jpg",
       "ingredients": [
         {
           "qty": 220,
@@ -446,7 +446,7 @@
         "name": "Travelling Foodie",
         "url": "https://travellingfoodie.net/ninja-speedi-home-fries/"
       },
-      "image": "",
+      "image": "https://travellingfoodie.net/wp-content/uploads/2023/10/Ninja-Speedi-Home-Fries-Potato-Travelling-Foodie-9.jpg",
       "ingredients": [
         {
           "qty": 350,
@@ -515,7 +515,7 @@
         "name": "Giorgos Tsoulis",
         "url": "https://www.giorgostsoulis.com/syntages/soupes/kreatosoupa-mosxarisia"
       },
-      "image": "",
+      "image": "https://api.giorgostsoulis.com/storage/media/recipe/4540/conversions/kreatosoupa-me-mosxari-site-11-large.jpg",
       "ingredients": [
         {
           "qty": 1.5,
@@ -622,7 +622,7 @@
         "name": "Akis Petretzikis",
         "url": "https://akispetretzikis.com/recipe/melitzanosalata"
       },
-      "image": "",
+      "image": "https://akispetretzikis.com/wp-content/uploads/2026/04/melitzanosalata-site.jpg",
       "ingredients": [
         {
           "qty": 1,
@@ -711,7 +711,7 @@
         "name": "Giorgos Tsoulis",
         "url": "https://www.giorgostsoulis.com/syntages/kreatika/paradosiako-giouvetsi"
       },
-      "image": "",
+      "image": "https://api.giorgostsoulis.com/storage/media/recipe/4272/conversions/Mosxari-giouvetsi-8-large.jpg",
       "ingredients": [
         {
           "qty": 1,

@@ -14,7 +14,8 @@
 
   const art = (r) => {
     const c = cat(r.category);
-    const img = r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : `<span class="initial" aria-hidden="true">${esc(r.title.trim()[0] || '?')}</span>`;
+    const initial = `<span class="initial" aria-hidden="true">${esc(r.title.trim()[0] || '?')}</span>`;
+    const img = safeUrl(r.image) ? `<img src="${esc(r.image)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()">${initial}` : initial;
     return { style: `--tile:${esc(c.color)}`, inner: img };
   };
 
@@ -130,7 +131,7 @@
             </div>
             ${(r.tags || []).length ? `<div class="tags">${r.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</div>` : ''}
           </div>
-          <div class="recipe-art" style="${a.style}">${a.inner}</div>
+          <figure class="recipe-figure"><div class="recipe-art" style="${a.style}">${a.inner}</div>${safeUrl(r.image) && safeUrl(src.url) ? `<figcaption>Photo: <a href="${esc(safeUrl(src.url))}" target="_blank" rel="noopener noreferrer">${esc(src.name || "original recipe")}</a></figcaption>` : ""}</figure>
         </div>
         <section class="macros" aria-label="Macros per serving">
           <div class="macros-head"><span>Macros per serving</span><span class="pill">${r.macrosEstimated === 'partial' ? 'Partly estimated' : r.macrosEstimated ? 'Estimated' : 'From the source'}</span></div>
