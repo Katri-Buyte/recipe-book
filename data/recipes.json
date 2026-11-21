@@ -43,6 +43,438 @@
   ],
   "recipes": [
     {
+      "id": "air-fryer-pork-chops-potatoes",
+      "title": "Air fryer pork chops with potatoes",
+      "category": "mains",
+      "description": "Mustard, lemon and oregano pork chops with crisp oregano chips, both done in the air fryer.",
+      "added": "2026-11-22",
+      "servings": 2,
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "tags": [
+        "greek",
+        "air fryer",
+        "high protein",
+        "gluten free",
+        "dairy free"
+      ],
+      "source": {
+        "name": "Akis Petretzikis",
+        "url": "https://akispetretzikis.com/recipe/choirines-mprizoles-me-patates-sto-air-fryer"
+      },
+      "image": "https://akispetretzikis.com/wp-content/uploads/2026/04/xoirines-mprizoles-me-patates-sto-Air-Fryer-16-10-24-ep.23-site-1.jpg",
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "potatoes",
+          "note": "peeled",
+          "group": "Potatoes"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "olive oil",
+          "group": "Potatoes"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "dried oregano",
+          "group": "Potatoes"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt",
+          "group": "Potatoes"
+        },
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "pork loin chops",
+          "note": "2 chops",
+          "group": "Pork chops"
+        },
+        {
+          "qty": 0.5,
+          "unit": "",
+          "item": "lemon",
+          "note": "juiced",
+          "group": "Pork chops"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "olive oil",
+          "group": "Pork chops"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "mustard",
+          "group": "Pork chops"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tbsp",
+          "item": "dried oregano",
+          "group": "Pork chops"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt",
+          "group": "Pork chops"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "mustard and fresh oregano leaves",
+          "group": "To serve"
+        }
+      ],
+      "steps": [
+        "Cut the potatoes into thin chips, put them in a bowl and toss by hand with the olive oil, salt and oregano.",
+        "Score the fat along the edge of the chops in a few places.",
+        "Rub the chops on both sides with the lemon juice and salt.",
+        "Brush both sides with the olive oil, mustard and oregano.",
+        "Double-basket air fryer: put the potatoes in one basket and the chops in the other and cook at 200°C for 30 minutes, turning the chops and tossing the potatoes halfway.",
+        "Single-basket air fryer: cook the chops and the potatoes separately, 30 minutes each at 200°C.",
+        "Serve with mustard and fresh oregano."
+      ],
+      "notes": "Tested in an 11 litre, 2400 W double-basket air fryer; smaller models may need a few minutes more.",
+      "macros": {
+        "calories": 1021,
+        "protein": 70,
+        "carbs": 56,
+        "fat": 55,
+        "fiber": 8
+      },
+      "macrosEstimated": false
+    },
+    {
+      "id": "salmon-feta-pasta-red-peppers",
+      "title": "Salmon feta pasta with red peppers",
+      "category": "mains",
+      "description": "Salmon, feta and red peppers baked in one dish, then broken up into a creamy sauce for pasta.",
+      "added": "2026-11-22",
+      "servings": 4,
+      "prepMinutes": 5,
+      "cookMinutes": 45,
+      "tags": [
+        "high protein",
+        "one dish",
+        "adapted"
+      ],
+      "source": {
+        "name": "Cooktoria",
+        "url": "https://cooktoria.com/salmon-feta-pasta/"
+      },
+      "image": "https://cooktoria.com/wp-content/uploads/2021/10/Salmon-Feta-Pasta-sq-1.jpg",
+      "ingredients": [
+        {
+          "qty": 450,
+          "unit": "g",
+          "item": "skinless salmon fillet"
+        },
+        {
+          "qty": 225,
+          "unit": "g",
+          "item": "feta",
+          "note": "one block"
+        },
+        {
+          "qty": 450,
+          "unit": "g",
+          "item": "red peppers",
+          "note": "about 3, cut into strips"
+        },
+        {
+          "qty": 80,
+          "unit": "ml",
+          "item": "extra virgin olive oil"
+        },
+        {
+          "qty": 0.33,
+          "unit": "tsp",
+          "item": "sea salt",
+          "note": "or to taste"
+        },
+        {
+          "qty": 0.33,
+          "unit": "tsp",
+          "item": "black pepper",
+          "note": "or to taste"
+        },
+        {
+          "qty": 225,
+          "unit": "g",
+          "item": "short pasta",
+          "note": "such as gemelli or penne"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "minced"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "small handful of basil",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 0.25,
+          "unit": "tsp",
+          "item": "chilli flakes"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 200°C. Put the salmon, pepper strips and the feta block in a large baking dish. Drizzle with the olive oil and season the salmon and peppers lightly; feta is already salty.",
+        "Bake for 40 to 45 minutes, until the peppers are soft and catching at the edges and the feta is golden.",
+        "Meanwhile cook the pasta in salted boiling water as the packet says. Keep 120 ml of the pasta water before draining.",
+        "Take the dish out and break up the feta with a fork into a creamy sauce. Flake the salmon gently.",
+        "Stir in the basil, garlic and chilli flakes.",
+        "Add the pasta and mix, loosening the sauce with pasta water as needed."
+      ],
+      "notes": "Adapted: red peppers replace the cherry tomatoes in the original. Peppers release less juice than tomatoes, so you will likely need more of the pasta water. The photo shows the original version with tomatoes. Keeps 4 days in the fridge. Macros are the source figures, adjusted for the pepper swap.",
+      "macros": {
+        "calories": 720,
+        "protein": 39,
+        "carbs": 52,
+        "fat": 38,
+        "fiber": 4
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "gigantes-plaki",
+      "title": "Gigantes, baked giant beans",
+      "category": "soups-legumes",
+      "description": "Giant beans baked slowly in a tomato, carrot and celery sauce with parsley and dill.",
+      "added": "2026-11-22",
+      "servings": 5,
+      "prepMinutes": 10,
+      "cookMinutes": 120,
+      "tags": [
+        "greek",
+        "vegan",
+        "gluten free",
+        "high fibre",
+        "lent"
+      ],
+      "source": {
+        "name": "Argiro Barbarigou",
+        "url": "https://www.argiro.gr/recipe/gigantes-sto-fourno/"
+      },
+      "image": "https://www.argiro.gr/wp-content/uploads/2021/12/gigantes-fournou-1.jpg",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "dried giant beans (gigantes)"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "baking soda",
+          "note": "optional, for soaking"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "onions",
+          "note": "thinly sliced"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "sliced"
+        },
+        {
+          "qty": 120,
+          "unit": "ml",
+          "item": "olive oil",
+          "note": "half a cup"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "celery stick",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "carrot",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "chopped tomatoes",
+          "note": "2 tins of 400 g"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "pinches of sugar"
+        },
+        {
+          "qty": 0.5,
+          "unit": "bunch",
+          "item": "parsley"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "a little dill"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "water"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and freshly ground pepper"
+        }
+      ],
+      "steps": [
+        "The night before, soak the beans in plenty of water with a little baking soda dissolved in it. If you know the beans cook easily, or you can soak them for more than 12 hours, skip the soda.",
+        "Next day rinse them well, cover with cold water and boil for about 40 minutes until soft, skimming the foam. Drain and spread them in a 37 x 25 cm tray (or a 35 cm round one).",
+        "Heat the oven to 200°C, top and bottom heat.",
+        "Heat half the olive oil in a deep pan over medium heat and cook the onion for about 10 minutes until translucent.",
+        "Add the garlic, celery and carrot and cook 2 to 3 minutes more. They should soften without colouring.",
+        "Add the sugar, tomatoes, parsley, salt and pepper and simmer for 10 minutes.",
+        "Pour the sauce over the beans, then add the rest of the olive oil and the water.",
+        "Bake for about 45 minutes, until the sauce has reduced and only the oil is left around the beans."
+      ],
+      "notes": "With a fan oven, use the middle shelf, a lower temperature and cover the tray with foil so the beans do not dry out before they turn creamy. If you need to add water while boiling or baking, add boiling water. Avoid yellowed or cracked beans; they are old and will not soften. The source mentions 330 kcal per serving, but the beans and oil alone add up to more, so these macros are my estimate from the ingredients.",
+      "macros": {
+        "calories": 580,
+        "protein": 23,
+        "carbs": 72,
+        "fat": 23,
+        "fiber": 22
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "fakes-lentil-soup",
+      "title": "Fakes, Greek lentil soup",
+      "category": "soups-legumes",
+      "description": "Small lentils with leek, carrot and tomato, thickened with olive oil and sharpened with vinegar.",
+      "added": "2026-11-22",
+      "servings": 5,
+      "prepMinutes": 10,
+      "cookMinutes": 40,
+      "tags": [
+        "greek",
+        "vegan",
+        "high fibre",
+        "lent"
+      ],
+      "source": {
+        "name": "Argiro Barbarigou",
+        "url": "https://www.argiro.gr/recipe/fakes/"
+      },
+      "image": "https://www.argiro.gr/wp-content/uploads/2021/03/fakes-xylomenes-720x540.jpg",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "small brown lentils"
+        },
+        {
+          "qty": 120,
+          "unit": "ml",
+          "item": "olive oil",
+          "note": "half a cup"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "onions",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "small tender leeks",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "carrots",
+          "note": "very finely chopped"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "tomato paste",
+          "note": "level"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "grated fresh tomato"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "bay leaves"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "vinegar"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "dried oregano, salt and pepper"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "olives, feta and crusty bread",
+          "note": "to serve"
+        }
+      ],
+      "steps": [
+        "Rinse the lentils, boil them in plenty of water for 5 minutes and drain.",
+        "Heat 3 to 4 tablespoons of the olive oil in a pot and soften the onion and leek for 3 minutes.",
+        "Add the garlic and carrot and stir to coat them in the oil.",
+        "Add the tomato paste and rub it into the base of the pot with a wooden spoon so it toasts and releases its aroma.",
+        "Add the lentils, grated tomato, bay leaves and enough hot water to cover everything.",
+        "Cover and cook on low heat for about 30 minutes, until the lentils are soft and the soup has thickened.",
+        "Season with salt and pepper, then slowly stir in the rest of the olive oil over low heat so it thickens.",
+        "Sprinkle with the vinegar and a little dried oregano, stir, cover and leave to rest for 10 minutes.",
+        "Serve with olives, feta and bread."
+      ],
+      "notes": "Cooking time depends on the lentils; they are ready when the soup thickens. A diced potato or sweet potato makes it richer. The source says 4 to 5 servings; the macros are estimated from the ingredients for 5.",
+      "macros": {
+        "calories": 600,
+        "protein": 26,
+        "carbs": 77,
+        "fat": 23,
+        "fiber": 13
+      },
+      "macrosEstimated": true
+    },
+    {
       "id": "trahanas-soup",
       "title": "Trahanas soup with feta",
       "category": "soups-legumes",
