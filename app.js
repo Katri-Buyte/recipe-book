@@ -58,9 +58,76 @@
     return list.length ? list.map(card).join('') : `<p class="empty">No recipes match that yet.</p>`;
   }
 
+  /* Home navigation: next planned day + main categories */
+  const HOME_CATS = ['breakfast', 'mains', 'soups-legumes', 'salads-sides'];
+
+  function nextPlanDay() {
+    const today = todayIso();
+    const days = (PLANS.weeks || []).flatMap((w) => w.days).filter((d) => d.date >= today).sort((a, b) => a.date.localeCompare(b.date));
+    return days[0] || null;
+  }
+
+  function mealSummary(list) {
+    return (list || []).map((x) => {
+      if (x.group) return x.group;
+      if (x.recipe) { const rec = DATA.recipes.find((r) => r.id === x.recipe); return rec ? rec.title : x.recipe; }
+      return String(x.label || x.food).split(',')[0];
+    }).join(' + ');
+  }
+
+  function heroHtml() {
+    const d = nextPlanDay();
+    let planCard;
+    if (d) {
+      const today = todayIso();
+      const tmr = new Date(); tmr.setDate(tmr.getDate() + 1);
+      const tomorrow = `${tmr.getFullYear()}-${String(tmr.getMonth() + 1).padStart(2, '0')}-${String(tmr.getDate()).padStart(2, '0')}`;
+      const when = d.date === today ? 'Today' : d.date === tomorrow ? 'Tomorrow' : fmtDay(d.date);
+      const t = dayTotals(d);
+      planCard = `
+        <p class="eyebrow">Meal plan · ${esc(fmtShort(d.date))}</p>
+        <h2>${esc(when)}</h2>
+        <dl class="today-meals">
+          ${MEALS.map(([k, label]) => `<div><dt>${label}</dt><dd>${esc(mealSummary(d.meals[k])) || '–'}</dd></div>`).join('')}
+        </dl>
+        <p class="today-totals"><b>${Math.round(t[0]).toLocaleString('en-GB')}</b> kcal · <b>${Math.round(t[1])} g</b> protein · <b>${Math.round(t[2])} g</b> carbs · <b>${Math.round(t[3])} g</b> fat</p>
+        <a class="btn btn-light" href="#/plan">Open meal plan <span aria-hidden="true">→</span></a>`;
+    } else {
+      planCard = `
+        <p class="eyebrow">Meal plan</p>
+        <h2>No plan for the coming days yet</h2>
+        <p class="today-totals">Ask Claude for next week's plan.</p>
+        <a class="btn btn-light" href="#/plan">See past plans <span aria-hidden="true">→</span></a>`;
+    }
+    const cards = HOME_CATS.map((id) => {
+      const c = cat(id);
+      const list = sorted().filter((r) => r.category === id);
+      const photo = list.find((r) => safeUrl(r.image));
+      const n = list.length;
+      return `
+        <button type="button" class="cat-card${n ? '' : ' is-empty'}" data-cat="${esc(id)}" style="--tile:${esc(c.color)}" ${n ? '' : 'aria-disabled="true"'}>
+          <span class="cat-art">${photo ? `<img src="${esc(photo.image)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</span>
+          <span class="cat-label"><b>${esc(c.name)}</b><small>${n ? `${n} recipe${n === 1 ? '' : 's'}` : 'Coming soon'}</small></span>
+        </button>`;
+    }).join('');
+    return `
+      <section class="home-hero" aria-label="Quick links">
+        <div class="today-card">${planCard}</div>
+        <div class="cat-cards">${cards}</div>
+      </section>`;
+  }
+
+  function selectCategory(id) {
+    activeCategory = id;
+    app.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.cat === activeCategory)));
+    const grid = document.getElementById('grid');
+    grid.innerHTML = gridHtml();
+  }
+
   function renderList() {
     app.innerHTML = `
-      <section class="collection full">
+      ${heroHtml()}
+      <section class="collection full" id="recipes">
         <h1 class="sr-only">All recipes</h1>
         <div class="intro">${chips()}</div>
         <div class="grid" id="grid">${gridHtml()}</div>
@@ -278,10 +345,12 @@
 
   app.addEventListener('click', (e) => {
     const chip = e.target.closest('.chip');
-    if (!chip) return;
-    activeCategory = chip.dataset.cat;
-    app.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.cat === activeCategory)));
-    document.getElementById('grid').innerHTML = gridHtml();
+    if (chip) { selectCategory(chip.dataset.cat); return; }
+    const card = e.target.closest('.cat-card');
+    if (card && !card.classList.contains('is-empty')) {
+      selectCategory(card.dataset.cat);
+      document.getElementById('recipes').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    }
   });
 
   searchInput.addEventListener('input', () => {
