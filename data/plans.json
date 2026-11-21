@@ -5,6 +5,7 @@
     "carbs": 160,
     "fat": 53
   },
+  "note": "Salads use 1 tbsp olive oil with balsamic where the day has room, and 1 tsp on days that are already higher in fat. Lemon and vinegar in the recipes are optional for you.",
   "foods": {
     "greek-yogurt-2": {
       "name": "Greek yogurt 2%",
@@ -150,16 +151,64 @@
         "fiber": 0
       }
     },
-    "salad": {
-      "name": "tomato and cucumber salad with 1 tsp olive oil",
-      "unit": "bowl",
+    "greens": {
+      "name": "lettuce or lamb’s lettuce",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 16,
+        "protein": 1.4,
+        "carbs": 2.9,
+        "fat": 0.2,
+        "fiber": 1.5
+      }
+    },
+    "broccoli": {
+      "name": "broccoli",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 35,
+        "protein": 2.4,
+        "carbs": 7.2,
+        "fat": 0.4,
+        "fiber": 3.3
+      }
+    },
+    "roast-veg": {
+      "name": "carrots, courgette and peppers",
+      "unit": "g",
+      "per": 100,
+      "macros": {
+        "calories": 29,
+        "protein": 1,
+        "carbs": 6,
+        "fat": 0.2,
+        "fiber": 1.9
+      }
+    },
+    "dressing": {
+      "name": "1 tbsp olive oil with balsamic",
+      "unit": "serving",
       "per": 1,
       "macros": {
-        "calories": 76,
-        "protein": 1.6,
-        "carbs": 7,
-        "fat": 4.8,
-        "fiber": 2
+        "calories": 124,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 13.5,
+        "fiber": 0
+      }
+    },
+    "dressing-light": {
+      "name": "1 tsp olive oil with balsamic",
+      "unit": "serving",
+      "per": 1,
+      "macros": {
+        "calories": 45,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 4.5,
+        "fiber": 0
       }
     }
   },
@@ -169,7 +218,7 @@
       "days": [
         {
           "date": "2026-11-23",
-          "prep": "Cook the kreatosoupa (7 servings). Keep 3 in the fridge for Mon, Tue and Thu and freeze the rest.",
+          "prep": "Cook the kreatosoupa (7 servings): keep 2 for Mon and Tue, freeze the rest. Cook the fakes too: half a portion tonight and half for Friday. Soak the gigantes tonight.",
           "meals": {
             "breakfast": [
               {
@@ -177,8 +226,8 @@
                 "items": [
                   {
                     "food": "greek-yogurt-2",
-                    "amount": 200,
-                    "label": "200 g Greek yogurt 2%"
+                    "amount": 250,
+                    "label": "250 g Greek yogurt 2%"
                   },
                   {
                     "food": "oats",
@@ -202,41 +251,51 @@
               {
                 "recipe": "kreatosoupa-beef-soup",
                 "portion": 1
+              },
+              {
+                "food": "broccoli",
+                "amount": 200,
+                "label": "200 g steamed broccoli, drizzle of balsamic"
               }
             ],
             "snacks": [
               {
+                "food": "greek-yogurt-2",
+                "amount": 170,
+                "label": "170 g Greek yogurt 2%"
+              },
+              {
                 "food": "apple",
                 "amount": 1,
                 "label": "1 apple"
-              },
-              {
-                "food": "protein-pudding",
-                "amount": 1,
-                "label": "1 protein pudding"
-              },
-              {
-                "food": "almonds",
-                "amount": 15,
-                "label": "15 g almonds"
               }
             ],
             "dinner": [
               {
-                "recipe": "melitzanosalata",
-                "portion": 1
+                "recipe": "fakes-lentil-soup",
+                "portion": 0.5
               },
               {
-                "food": "bread",
-                "amount": 2,
-                "label": "2 slices wholegrain bread"
+                "group": "Green salad",
+                "items": [
+                  {
+                    "food": "greens",
+                    "amount": 100,
+                    "label": "100 g lettuce or lamb’s lettuce"
+                  },
+                  {
+                    "food": "dressing",
+                    "amount": 1,
+                    "label": "1 tbsp olive oil, drizzle of balsamic"
+                  }
+                ]
               }
             ]
           }
         },
         {
           "date": "2026-11-24",
-          "prep": "Soak the gigantes overnight (Monday night) so they can bake this evening. Half goes to Wednesday's lunch.",
+          "prep": "Bake the gigantes: half a portion tonight, half for Wednesday lunch and half for Sunday; freeze the rest.",
           "meals": {
             "breakfast": [
               {
@@ -264,6 +323,11 @@
               {
                 "recipe": "kreatosoupa-beef-soup",
                 "portion": 1
+              },
+              {
+                "food": "broccoli",
+                "amount": 200,
+                "label": "200 g steamed broccoli, drizzle of balsamic"
               }
             ],
             "snacks": [
@@ -271,6 +335,11 @@
                 "food": "greek-yogurt-2",
                 "amount": 170,
                 "label": "170 g Greek yogurt 2%"
+              },
+              {
+                "food": "banana",
+                "amount": 1,
+                "label": "1 banana"
               },
               {
                 "food": "apple",
@@ -284,21 +353,26 @@
                 "portion": 0.5
               },
               {
-                "food": "bread",
-                "amount": 1,
-                "label": "1 slice wholegrain bread"
-              },
-              {
-                "food": "banana",
-                "amount": 1,
-                "label": "1 banana"
+                "group": "Green salad",
+                "items": [
+                  {
+                    "food": "greens",
+                    "amount": 100,
+                    "label": "100 g lettuce or lamb’s lettuce"
+                  },
+                  {
+                    "food": "dressing-light",
+                    "amount": 1,
+                    "label": "1 tsp olive oil, drizzle of balsamic"
+                  }
+                ]
               }
             ]
           }
         },
         {
           "date": "2026-11-25",
-          "prep": "Make the cottage cheese lasagna (12 portions). Freeze what you will not eat on Wed, Thu and Sun.",
+          "prep": "Make half the salmon feta pasta recipe (2 servings): one for tonight, one for Thursday lunch.",
           "meals": {
             "breakfast": [
               {
@@ -334,36 +408,36 @@
               },
               {
                 "food": "egg",
-                "amount": 2,
-                "label": "2 boiled eggs"
+                "amount": 1,
+                "label": "1 boiled egg"
               },
               {
-                "food": "bread",
-                "amount": 1,
-                "label": "1 slice wholegrain bread"
+                "food": "broccoli",
+                "amount": 200,
+                "label": "200 g steamed broccoli, drizzle of balsamic"
               }
             ],
             "snacks": [
               {
-                "food": "protein-pudding",
-                "amount": 1,
-                "label": "1 protein pudding"
-              },
-              {
                 "food": "greek-yogurt-2",
                 "amount": 170,
                 "label": "170 g Greek yogurt 2%"
+              },
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
               }
             ],
             "dinner": [
               {
-                "recipe": "cottage-cheese-lasagna",
-                "portion": 1
+                "recipe": "salmon-feta-pasta-red-peppers",
+                "portion": 0.6
               },
               {
-                "food": "salad",
-                "amount": 1,
-                "label": "Tomato and cucumber salad, 1 tsp olive oil"
+                "food": "greens",
+                "amount": 100,
+                "label": "100 g lettuce or lamb’s lettuce, drizzle of balsamic"
               }
             ]
           }
@@ -374,74 +448,12 @@
           "meals": {
             "breakfast": [
               {
-                "group": "Avocado toast with egg",
-                "items": [
-                  {
-                    "food": "bread",
-                    "amount": 2,
-                    "label": "2 slices wholegrain bread"
-                  },
-                  {
-                    "food": "avocado",
-                    "amount": 50,
-                    "label": "50 g avocado, mashed"
-                  },
-                  {
-                    "food": "egg",
-                    "amount": 1,
-                    "label": "1 boiled egg"
-                  }
-                ]
-              }
-            ],
-            "lunch": [
-              {
-                "recipe": "cottage-cheese-lasagna",
-                "portion": 1
-              },
-              {
-                "food": "salad",
-                "amount": 1,
-                "label": "Tomato and cucumber salad, 1 tsp olive oil"
-              }
-            ],
-            "snacks": [
-              {
-                "food": "protein-pudding",
-                "amount": 1,
-                "label": "1 protein pudding"
-              },
-              {
-                "food": "banana",
-                "amount": 1,
-                "label": "1 banana"
-              }
-            ],
-            "dinner": [
-              {
-                "recipe": "kreatosoupa-beef-soup",
-                "portion": 1
-              },
-              {
-                "food": "apple",
-                "amount": 1,
-                "label": "1 apple"
-              }
-            ]
-          }
-        },
-        {
-          "date": "2026-11-27",
-          "prep": "Cook the fakes for lunch and the kelaidi for dinner. Kelaidi leftovers are Saturday's lunch.",
-          "meals": {
-            "breakfast": [
-              {
                 "group": "Yogurt bowl",
                 "items": [
                   {
                     "food": "greek-yogurt-2",
-                    "amount": 200,
-                    "label": "200 g Greek yogurt 2%"
+                    "amount": 250,
+                    "label": "250 g Greek yogurt 2%"
                   },
                   {
                     "food": "oats",
@@ -463,18 +475,13 @@
             ],
             "lunch": [
               {
-                "recipe": "fakes-lentil-soup",
-                "portion": 0.5
+                "recipe": "salmon-feta-pasta-red-peppers",
+                "portion": 0.6
               },
               {
-                "food": "feta",
-                "amount": 30,
-                "label": "30 g feta"
-              },
-              {
-                "food": "bread",
-                "amount": 1,
-                "label": "1 slice wholegrain bread"
+                "food": "greens",
+                "amount": 100,
+                "label": "100 g lettuce or lamb’s lettuce, drizzle of balsamic"
               }
             ],
             "snacks": [
@@ -484,6 +491,11 @@
                 "label": "170 g Greek yogurt 2%"
               },
               {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              },
+              {
                 "food": "apple",
                 "amount": 1,
                 "label": "1 apple"
@@ -491,20 +503,36 @@
             ],
             "dinner": [
               {
-                "recipe": "kelaidi",
-                "portion": 0.8
-              },
-              {
-                "food": "protein-pudding",
-                "amount": 1,
-                "label": "1 protein pudding"
+                "group": "Eggs with roasted vegetables",
+                "items": [
+                  {
+                    "food": "egg",
+                    "amount": 2,
+                    "label": "2 boiled eggs"
+                  },
+                  {
+                    "food": "roast-veg",
+                    "amount": 250,
+                    "label": "250 g carrots, courgette and peppers"
+                  },
+                  {
+                    "food": "dressing-light",
+                    "amount": 1,
+                    "label": "roasted with 1 tsp olive oil"
+                  },
+                  {
+                    "food": "bread",
+                    "amount": 1,
+                    "label": "1 slice wholegrain bread"
+                  }
+                ]
               }
             ]
           }
         },
         {
-          "date": "2026-11-28",
-          "prep": "Cook the giouvetsi in the afternoon (about 2.5 hours). Leftovers are Sunday's lunch.",
+          "date": "2026-11-27",
+          "prep": "Make the cottage cheese lasagna (12 portions). Keep 2 for Fri and Sat and freeze the rest.",
           "meals": {
             "breakfast": [
               {
@@ -512,8 +540,8 @@
                 "items": [
                   {
                     "food": "greek-yogurt-2",
-                    "amount": 200,
-                    "label": "200 g Greek yogurt 2%"
+                    "amount": 250,
+                    "label": "250 g Greek yogurt 2%"
                   },
                   {
                     "food": "oats",
@@ -535,11 +563,31 @@
             ],
             "lunch": [
               {
-                "recipe": "kelaidi",
-                "portion": 0.8
+                "recipe": "fakes-lentil-soup",
+                "portion": 0.5
+              },
+              {
+                "food": "egg",
+                "amount": 2,
+                "label": "2 boiled eggs"
+              },
+              {
+                "food": "greens",
+                "amount": 100,
+                "label": "100 g lettuce or lamb’s lettuce, drizzle of balsamic"
               }
             ],
             "snacks": [
+              {
+                "food": "protein-pudding",
+                "amount": 1,
+                "label": "1 protein pudding"
+              },
+              {
+                "food": "greek-yogurt-2",
+                "amount": 170,
+                "label": "170 g Greek yogurt 2%"
+              },
               {
                 "food": "apple",
                 "amount": 1,
@@ -548,13 +596,115 @@
             ],
             "dinner": [
               {
-                "recipe": "beef-giouvetsi",
+                "recipe": "cottage-cheese-lasagna",
                 "portion": 1
               },
+              {
+                "group": "Roasted vegetables",
+                "items": [
+                  {
+                    "food": "roast-veg",
+                    "amount": 250,
+                    "label": "250 g carrots, courgette and peppers"
+                  },
+                  {
+                    "food": "dressing-light",
+                    "amount": 1,
+                    "label": "roasted with 1 tsp olive oil"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "date": "2026-11-28",
+          "prep": "Cook the giouvetsi in the afternoon (about 2.5 hours) for Sunday lunch, and freeze the rest.",
+          "meals": {
+            "breakfast": [
+              {
+                "group": "Yogurt bowl",
+                "items": [
+                  {
+                    "food": "greek-yogurt-2",
+                    "amount": 250,
+                    "label": "250 g Greek yogurt 2%"
+                  },
+                  {
+                    "food": "oats",
+                    "amount": 30,
+                    "label": "30 g oats"
+                  },
+                  {
+                    "food": "banana",
+                    "amount": 0.5,
+                    "label": "½ banana, sliced"
+                  },
+                  {
+                    "food": "honey",
+                    "amount": 1,
+                    "label": "1 tsp honey"
+                  }
+                ]
+              }
+            ],
+            "lunch": [
+              {
+                "recipe": "cottage-cheese-lasagna",
+                "portion": 1
+              },
+              {
+                "group": "Green salad",
+                "items": [
+                  {
+                    "food": "greens",
+                    "amount": 100,
+                    "label": "100 g lettuce or lamb’s lettuce"
+                  },
+                  {
+                    "food": "dressing-light",
+                    "amount": 1,
+                    "label": "1 tsp olive oil, drizzle of balsamic"
+                  }
+                ]
+              }
+            ],
+            "snacks": [
               {
                 "food": "protein-pudding",
                 "amount": 1,
                 "label": "1 protein pudding"
+              },
+              {
+                "food": "greek-yogurt-2",
+                "amount": 170,
+                "label": "170 g Greek yogurt 2%"
+              },
+              {
+                "food": "apple",
+                "amount": 1,
+                "label": "1 apple"
+              }
+            ],
+            "dinner": [
+              {
+                "recipe": "melitzanosalata",
+                "portion": 0.5
+              },
+              {
+                "food": "egg",
+                "amount": 2,
+                "label": "2 boiled eggs"
+              },
+              {
+                "food": "bread",
+                "amount": 1,
+                "label": "1 slice wholegrain bread"
+              },
+              {
+                "food": "broccoli",
+                "amount": 200,
+                "label": "200 g steamed broccoli, drizzle of balsamic"
               }
             ]
           }
@@ -569,8 +719,8 @@
                 "items": [
                   {
                     "food": "greek-yogurt-2",
-                    "amount": 200,
-                    "label": "200 g Greek yogurt 2%"
+                    "amount": 250,
+                    "label": "250 g Greek yogurt 2%"
                   },
                   {
                     "food": "oats",
@@ -593,7 +743,22 @@
             "lunch": [
               {
                 "recipe": "beef-giouvetsi",
-                "portion": 1
+                "portion": 0.8
+              },
+              {
+                "group": "Green salad",
+                "items": [
+                  {
+                    "food": "greens",
+                    "amount": 100,
+                    "label": "100 g lettuce or lamb’s lettuce"
+                  },
+                  {
+                    "food": "dressing-light",
+                    "amount": 1,
+                    "label": "1 tsp olive oil, drizzle of balsamic"
+                  }
+                ]
               }
             ],
             "snacks": [
@@ -603,25 +768,25 @@
                 "label": "170 g Greek yogurt 2%"
               },
               {
-                "food": "apple",
+                "food": "protein-pudding",
                 "amount": 1,
-                "label": "1 apple"
+                "label": "1 protein pudding"
               }
             ],
             "dinner": [
               {
-                "recipe": "cottage-cheese-lasagna",
-                "portion": 1
+                "recipe": "gigantes-plaki",
+                "portion": 0.5
               },
               {
-                "food": "salad",
+                "food": "egg",
                 "amount": 1,
-                "label": "Tomato and cucumber salad, 1 tsp olive oil"
+                "label": "1 boiled egg"
               },
               {
-                "food": "protein-pudding",
-                "amount": 1,
-                "label": "1 protein pudding"
+                "food": "broccoli",
+                "amount": 200,
+                "label": "200 g steamed broccoli, drizzle of balsamic"
               }
             ]
           }
