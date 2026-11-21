@@ -1,13 +1,742 @@
 {
   "categories": [
-    { "id": "breakfast", "name": "Breakfast", "color": "#f3c665" },
-    { "id": "mains", "name": "Mains", "color": "#dd6f58" },
-    { "id": "soups-legumes", "name": "Soups & Legumes", "color": "#59682f" },
-    { "id": "salads-sides", "name": "Salads & Sides", "color": "#8fa35a" },
-    { "id": "snacks", "name": "Snacks", "color": "#8566ad" },
-    { "id": "sweets", "name": "Sweets", "color": "#e59aa0" }
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "color": "#f3c665"
+    },
+    {
+      "id": "mains",
+      "name": "Mains",
+      "color": "#dd6f58"
+    },
+    {
+      "id": "soups-legumes",
+      "name": "Soups & Legumes",
+      "color": "#59682f"
+    },
+    {
+      "id": "salads-sides",
+      "name": "Salads & Sides",
+      "color": "#8fa35a"
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "color": "#8566ad"
+    },
+    {
+      "id": "sweets",
+      "name": "Sweets",
+      "color": "#e59aa0"
+    },
+    {
+      "id": "dips-sauces",
+      "name": "Dips & Sauces",
+      "color": "#e0954a"
+    },
+    {
+      "id": "bread-baking",
+      "name": "Bread & Baking",
+      "color": "#b5835a"
+    }
   ],
   "recipes": [
+    {
+      "id": "kelaidi",
+      "title": "Kelaidi, beef and pepper bake",
+      "category": "mains",
+      "description": "A layered tray bake from Tyrnavos: potato, horn peppers, sliced beef, tomato and kefalotyri.",
+      "added": "2026-11-22",
+      "servings": 7,
+      "prepMinutes": 10,
+      "cookMinutes": 60,
+      "tags": [
+        "greek",
+        "high protein",
+        "one tray",
+        "gluten free"
+      ],
+      "source": {
+        "name": "Giorgos Tsoulis",
+        "url": "https://www.giorgostsoulis.com/syntages/kyrios-gevmata/kelaidi"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "potatoes",
+          "note": "cut into 3 mm rounds"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "horn peppers",
+          "note": "halved"
+        },
+        {
+          "qty": 750,
+          "unit": "g",
+          "item": "beef (the Greek cut \"elia\")",
+          "note": "cut into 1 cm slices"
+        },
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "tomatoes",
+          "note": "cut into 3 mm rounds"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "kefalotyri",
+          "note": "grated"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "olive oil, salt and pepper"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 200°C, top and bottom heat. Oil the base of a 25 x 32 cm tray.",
+        "Cover the base with the potato slices and season with salt and pepper.",
+        "Cover the potatoes fully with the peppers and season.",
+        "Lay the beef over the peppers with no gaps and season.",
+        "Arrange the tomatoes on top, season, and cover the whole tray with the cheese.",
+        "Bake for 1 hour. After the first 30 minutes cover the tray with foil.",
+        "Let it cool slightly before serving."
+      ],
+      "notes": "Every layer is seasoned, so go lightly with the salt. If it releases a lot of liquid at the end, spoon it off carefully. Kcal, protein and carbs are from the source. Fat and fibre are estimated.",
+      "macros": {
+        "calories": 644,
+        "protein": 56,
+        "carbs": 53,
+        "fat": 24,
+        "fiber": 3
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "cottage-cheese-lasagna",
+      "title": "Cottage cheese lasagna",
+      "category": "mains",
+      "description": "A lighter lasagna with lean beef, spinach and a cottage cheese filling in place of bechamel.",
+      "added": "2026-11-22",
+      "servings": 12,
+      "prepMinutes": 30,
+      "cookMinutes": 60,
+      "tags": [
+        "high protein",
+        "batch cooking",
+        "freezer friendly"
+      ],
+      "source": {
+        "name": "Oh Snap Macros",
+        "url": "https://ohsnapmacros.com/cottage-cheese-lasagna/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "olive oil",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "roughly chopped",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "small onion",
+          "note": "chopped",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 450,
+          "unit": "g",
+          "item": "lean beef mince (about 5% fat)",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "dried oregano",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "Italian seasoning",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "paprika",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tsp",
+          "item": "chilli powder",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "salt",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tsp",
+          "item": "black pepper",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 900,
+          "unit": "g",
+          "item": "tomato pasta sauce (marinara)",
+          "group": "Meat sauce"
+        },
+        {
+          "qty": 450,
+          "unit": "g",
+          "item": "low-fat cottage cheese",
+          "note": "drained of excess liquid",
+          "group": "Filling"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "eggs",
+          "group": "Filling"
+        },
+        {
+          "qty": 56,
+          "unit": "g",
+          "item": "parmesan",
+          "note": "grated",
+          "group": "Filling"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tsp",
+          "item": "dried oregano",
+          "group": "Filling"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tsp",
+          "item": "Italian seasoning",
+          "group": "Filling"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tsp",
+          "item": "salt",
+          "group": "Filling"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "black pepper",
+          "group": "Filling"
+        },
+        {
+          "qty": 280,
+          "unit": "g",
+          "item": "frozen spinach",
+          "note": "defrosted and squeezed dry",
+          "group": "Filling"
+        },
+        {
+          "qty": 8,
+          "unit": "",
+          "item": "no-boil lasagna sheets",
+          "group": "Layers"
+        },
+        {
+          "qty": 224,
+          "unit": "g",
+          "item": "low-moisture mozzarella",
+          "note": "grated",
+          "group": "Layers"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 190°C. Warm the oil in a large pan over medium heat and brown the garlic and onion for 3 to 5 minutes.",
+        "Add the mince, break it up and cook through, about 5 minutes. Stir in the oregano, Italian seasoning, paprika, chilli, salt and pepper.",
+        "Add the pasta sauce and leave to simmer while you make the filling.",
+        "Mix the cottage cheese, eggs, parmesan, oregano, Italian seasoning, salt and pepper, then stir in the spinach.",
+        "Grease a 23 x 33 cm baking dish and spread a spoonful of meat sauce over the base. Lay 4 lasagna sheets across the short side.",
+        "Layer 56 g mozzarella, half the meat sauce and half the filling. Repeat with 4 sheets, 56 g mozzarella, the rest of the meat sauce and the rest of the filling, then finish with the last 112 g mozzarella.",
+        "Set the dish on a baking tray, cover with foil without touching the cheese and bake for 50 minutes.",
+        "Remove the foil and bake 10 to 15 minutes more, until browned and bubbling at the edges. Cut into 12 portions."
+      ],
+      "notes": "The spinach is optional. With fattier mince, drain the fat so the lasagna does not turn watery. No need to blend the cottage cheese.",
+      "macros": {
+        "calories": 277,
+        "protein": 22,
+        "carbs": 15,
+        "fat": 14,
+        "fiber": 2
+      },
+      "macrosEstimated": false
+    },
+    {
+      "id": "two-ingredient-naan",
+      "title": "Two-ingredient naan",
+      "category": "bread-baking",
+      "description": "No-yeast flatbreads from self-raising flour and Greek yogurt, cooked in a dry pan.",
+      "added": "2026-11-22",
+      "servings": 8,
+      "prepMinutes": 5,
+      "cookMinutes": 5,
+      "tags": [
+        "quick",
+        "vegetarian",
+        "no yeast"
+      ],
+      "source": {
+        "name": "The Big Man's World",
+        "url": "https://thebigmansworld.com/2-ingredient-naan/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 220,
+          "unit": "g",
+          "item": "self-raising flour",
+          "note": "plus extra for dusting"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Greek yogurt"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tsp",
+          "item": "salt"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "butter",
+          "note": "melted, optional, for brushing"
+        }
+      ],
+      "steps": [
+        "Mix the flour, salt and yogurt in a large bowl, then bring it together into a ball with your hands.",
+        "Dust the worktop and the dough with flour. Flatten the dough into a round, cut it into 8 equal pieces and press each into a naan shape.",
+        "Heat a non-stick pan over medium heat. Cook each naan for 3 minutes, flip and cook 2 minutes more.",
+        "Brush with melted butter if you like."
+      ],
+      "notes": "One serving is one naan. The cook time is per naan. It needs self-raising flour and will not work with almond or coconut flour.",
+      "macros": {
+        "calories": 113,
+        "protein": 7,
+        "carbs": 19,
+        "fat": 1,
+        "fiber": 1
+      },
+      "macrosEstimated": false
+    },
+    {
+      "id": "ninja-speedi-home-fries",
+      "title": "Ninja Speedi home fries",
+      "category": "salads-sides",
+      "description": "Paprika potato cubes steamed then crisped in the Ninja Speedi.",
+      "added": "2026-11-22",
+      "servings": 2,
+      "prepMinutes": 5,
+      "cookMinutes": 19,
+      "tags": [
+        "ninja speedi",
+        "vegan",
+        "quick"
+      ],
+      "source": {
+        "name": "Travelling Foodie",
+        "url": "https://travellingfoodie.net/ninja-speedi-home-fries/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 350,
+          "unit": "g",
+          "item": "yellow potatoes",
+          "note": "cut into 1.5 cm cubes"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "coarse black pepper"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "sea salt"
+        },
+        {
+          "qty": 120,
+          "unit": "ml",
+          "item": "water"
+        }
+      ],
+      "steps": [
+        "Rinse and dry the potato cubes, then toss them in a bowl with the oil, salt, pepper and paprika.",
+        "Pour the water into the Speedi pot and set the crisper tray in the bottom position.",
+        "Spread the potatoes on the tray, close the lid and flip the switch to Rapid Cooker.",
+        "Select Steam & Crisp at 230°C for 15 minutes and press start. It steams for about 4 minutes before it starts crisping.",
+        "Tip onto a plate and serve."
+      ],
+      "notes": "The steam stage works like parboiling, which helps the outside crisp.",
+      "macros": {
+        "calories": 229,
+        "protein": 5,
+        "carbs": 38,
+        "fat": 7,
+        "fiber": 5
+      },
+      "macrosEstimated": false
+    },
+    {
+      "id": "kreatosoupa-beef-soup",
+      "title": "Kreatosoupa, Greek beef soup",
+      "category": "soups-legumes",
+      "description": "Big pieces of beef simmered with potato, carrot and celery, finished with lemon.",
+      "added": "2026-11-22",
+      "servings": 7,
+      "prepMinutes": 15,
+      "cookMinutes": 105,
+      "tags": [
+        "greek",
+        "high protein",
+        "one pot"
+      ],
+      "source": {
+        "name": "Giorgos Tsoulis",
+        "url": "https://www.giorgostsoulis.com/syntages/soupes/kreatosoupa-mosxarisia"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1.5,
+          "unit": "kg",
+          "item": "stewing beef (the Greek cut \"elia\")",
+          "note": "cut into large pieces"
+        },
+        {
+          "qty": 3,
+          "unit": "",
+          "item": "potatoes",
+          "note": "cut into large pieces"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "carrots",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 3,
+          "unit": "",
+          "item": "celery sticks",
+          "note": "roughly chopped"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "large onion",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "tomato paste"
+        },
+        {
+          "qty": 100,
+          "unit": "ml",
+          "item": "white wine"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "bay leaves"
+        },
+        {
+          "qty": 3,
+          "unit": "l",
+          "item": "vegetable stock"
+        },
+        {
+          "qty": 0.5,
+          "unit": "bunch",
+          "item": "leaf celery (selino)",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "lemons",
+          "note": "juiced"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "olive oil, salt and pepper"
+        }
+      ],
+      "steps": [
+        "Heat a large pot over high heat with a little olive oil. Sear the beef for about 4 minutes per side until deeply browned, then set it aside in a bowl.",
+        "In the same pot add a little more oil and cook the potatoes and carrots over medium heat.",
+        "Add the celery sticks and onion and stir until the vegetables caramelise.",
+        "Return the beef with the tomato paste, then pour in the wine and let the alcohol cook off.",
+        "Add the bay leaves, salt, pepper and stock. Cover and simmer on medium-low heat for 1.5 hours.",
+        "Stir in the leaf celery and lemon juice and take off the heat. Serve hot with fresh pepper and a drizzle of olive oil."
+      ],
+      "notes": "Keep the beef in large pieces so it does not fall apart. For rice or orzo in the soup, add it for the last 15 minutes. Kcal, protein and carbs are from the source. Fat and fibre are estimated.",
+      "macros": {
+        "calories": 500,
+        "protein": 67,
+        "carbs": 19,
+        "fat": 17,
+        "fiber": 3
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "melitzanosalata",
+      "title": "Melitzanosalata, smoky aubergine dip",
+      "category": "dips-sauces",
+      "description": "Charred aubergine and red pepper with garlic, vinegar, parsley and olive oil.",
+      "added": "2026-11-22",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 40,
+      "tags": [
+        "greek",
+        "vegan",
+        "gluten free",
+        "high fibre"
+      ],
+      "source": {
+        "name": "Akis Petretzikis",
+        "url": "https://akispetretzikis.com/recipe/melitzanosalata"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "kg",
+          "item": "aubergines, medium"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "red Florina pepper"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "garlic clove"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "apple cider vinegar or white wine vinegar",
+          "note": "about 2 tbsp"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "item": "olive oil",
+          "note": "about 4 tbsp"
+        },
+        {
+          "qty": 0.5,
+          "unit": "bunch",
+          "item": "parsley",
+          "note": "leaves only"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "spring onions",
+          "note": "green part only"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and pepper"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "spring onion, parsley and olive oil",
+          "note": "to serve"
+        }
+      ],
+      "steps": [
+        "Leave the skin on the aubergines and prick them all over with a fork.",
+        "On a gas hob: char them directly over a high flame for 20 to 25 minutes, turning, until soft with burnt skin. In the oven: bake at 180°C fan for 30 minutes, then grill at 230°C for 10 minutes, turning often.",
+        "Cool for 5 minutes, halve lengthways and scoop the flesh into a clean tea towel. Squeeze hard to remove the bitter juices, then chop the flesh finely and put it in a bowl.",
+        "Char the pepper the same way for 10 to 15 minutes until soft. Put it in a bowl, cover and leave for 15 to 20 minutes, then peel, deseed and cut into 1 cm cubes. Add to the aubergine.",
+        "Blitz the garlic, vinegar and olive oil in a small chopper and stir into the vegetables with salt and pepper.",
+        "Finely chop the spring onion greens and parsley leaves and mix them in. Taste, then serve with a little more spring onion, parsley and olive oil on top."
+      ],
+      "notes": "Charring over gas gives the smoky flavour. It tastes better after resting for a while.",
+      "macros": {
+        "calories": 196,
+        "protein": 3,
+        "carbs": 8,
+        "fat": 16,
+        "fiber": 6
+      },
+      "macrosEstimated": false
+    },
+    {
+      "id": "beef-giouvetsi",
+      "title": "Beef giouvetsi",
+      "category": "mains",
+      "description": "Slow-baked beef in a cinnamon and clove tomato sauce, finished with orzo in the same pot.",
+      "added": "2026-11-22",
+      "servings": 7,
+      "prepMinutes": 15,
+      "cookMinutes": 120,
+      "tags": [
+        "greek",
+        "high protein",
+        "sunday lunch"
+      ],
+      "source": {
+        "name": "Giorgos Tsoulis",
+        "url": "https://www.giorgostsoulis.com/syntages/kreatika/paradosiako-giouvetsi"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "kg",
+          "item": "stewing beef (the Greek cut \"elia\")",
+          "note": "cut into egg-sized pieces"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "onion",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "celery stick",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 6,
+          "unit": "tbsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "tomato paste"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "red wine"
+        },
+        {
+          "qty": 0.25,
+          "unit": "tsp",
+          "item": "ground cinnamon"
+        },
+        {
+          "qty": 0.25,
+          "unit": "tsp",
+          "item": "ground cloves"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "chopped tomatoes (tin)"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "bay leaves"
+        },
+        {
+          "qty": 1.25,
+          "unit": "l",
+          "item": "water",
+          "note": "plus 250 ml very hot water for the orzo"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "orzo (kritharaki), medium"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and pepper"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "grated kefalotyri",
+          "note": "to serve"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 170°C fan.",
+        "Toss the beef in a bowl with about half the olive oil, salt and pepper.",
+        "Brown the beef in batches in a deep pan over high heat, then move it to a lidded casserole.",
+        "Lower the heat to medium. In the same pan cook the onion and celery in the remaining 2 to 3 tablespoons of oil, scraping the base, until caramelised.",
+        "Add the garlic and tomato paste and cook for 2 minutes. Pour in the wine, then tip everything into the casserole.",
+        "Stir in the cinnamon, cloves, chopped tomatoes, water and bay leaves. Cover and bake for 2 to 2.5 hours, until the beef is tender.",
+        "Take the casserole out, stir in the orzo with 250 ml of very hot water and return to the oven for 20 minutes, stirring often.",
+        "Check the salt and pepper and serve with grated kefalotyri."
+      ],
+      "notes": "If the orzo soaks up the liquid quickly, add a little more hot water. Kcal, protein and carbs are from the source. Fat and fibre are estimated.",
+      "macros": {
+        "calories": 525,
+        "protein": 39,
+        "carbs": 48,
+        "fat": 20,
+        "fiber": 3
+      },
+      "macrosEstimated": "partial"
+    },
     {
       "id": "fakes-greek-lentil-soup",
       "title": "Fakes, Greek lentil soup",
@@ -17,20 +746,73 @@
       "servings": 4,
       "prepMinutes": 10,
       "cookMinutes": 45,
-      "tags": ["sample", "high fibre", "vegan", "batch cooking"],
-      "source": { "name": "Sample recipe", "url": "" },
+      "tags": [
+        "sample",
+        "high fibre",
+        "vegan",
+        "batch cooking"
+      ],
+      "source": {
+        "name": "Sample recipe",
+        "url": ""
+      },
       "image": "",
       "ingredients": [
-        { "qty": 300, "unit": "g", "item": "brown lentils", "note": "rinsed" },
-        { "qty": 1, "unit": "", "item": "large onion", "note": "finely chopped" },
-        { "qty": 2, "unit": "", "item": "garlic cloves", "note": "sliced" },
-        { "qty": 1, "unit": "", "item": "carrot", "note": "diced" },
-        { "qty": 2, "unit": "tbsp", "item": "tomato paste" },
-        { "qty": 2, "unit": "", "item": "bay leaves" },
-        { "qty": 60, "unit": "ml", "item": "olive oil" },
-        { "qty": 1.2, "unit": "l", "item": "water" },
-        { "qty": 2, "unit": "tbsp", "item": "red wine vinegar", "note": "to finish" },
-        { "qty": "", "unit": "", "item": "salt and pepper" }
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "brown lentils",
+          "note": "rinsed"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "large onion",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "sliced"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "carrot",
+          "note": "diced"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "tomato paste"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "bay leaves"
+        },
+        {
+          "qty": 60,
+          "unit": "ml",
+          "item": "olive oil"
+        },
+        {
+          "qty": 1.2,
+          "unit": "l",
+          "item": "water"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "red wine vinegar",
+          "note": "to finish"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and pepper"
+        }
       ],
       "steps": [
         "Warm half the olive oil in a pot over medium heat. Soften the onion, garlic and carrot for 5 minutes.",
@@ -39,7 +821,13 @@
         "Season with salt and pepper. Stir in the rest of the olive oil and the vinegar, then rest for 5 minutes before serving."
       ],
       "notes": "Keeps 4 days in the fridge and freezes well.",
-      "macros": { "calories": 415, "protein": 20, "carbs": 52, "fat": 15, "fiber": 10 },
+      "macros": {
+        "calories": 415,
+        "protein": 20,
+        "carbs": 52,
+        "fat": 15,
+        "fiber": 10
+      },
       "macrosEstimated": true
     },
     {
@@ -51,18 +839,60 @@
       "servings": 4,
       "prepMinutes": 15,
       "cookMinutes": 50,
-      "tags": ["sample", "high protein", "one tray"],
-      "source": { "name": "Sample recipe", "url": "" },
+      "tags": [
+        "sample",
+        "high protein",
+        "one tray"
+      ],
+      "source": {
+        "name": "Sample recipe",
+        "url": ""
+      },
       "image": "",
       "ingredients": [
-        { "qty": 800, "unit": "g", "item": "skinless, boneless chicken thighs" },
-        { "qty": 600, "unit": "g", "item": "potatoes", "note": "cut into wedges" },
-        { "qty": 3, "unit": "tbsp", "item": "olive oil" },
-        { "qty": 2, "unit": "", "item": "lemons", "note": "juiced" },
-        { "qty": 4, "unit": "", "item": "garlic cloves", "note": "crushed" },
-        { "qty": 1, "unit": "tbsp", "item": "dried oregano" },
-        { "qty": 150, "unit": "ml", "item": "water" },
-        { "qty": "", "unit": "", "item": "salt and pepper" }
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "skinless, boneless chicken thighs"
+        },
+        {
+          "qty": 600,
+          "unit": "g",
+          "item": "potatoes",
+          "note": "cut into wedges"
+        },
+        {
+          "qty": 3,
+          "unit": "tbsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "lemons",
+          "note": "juiced"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "crushed"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "dried oregano"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "item": "water"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and pepper"
+        }
       ],
       "steps": [
         "Heat the oven to 200°C (fan 180°C).",
@@ -71,7 +901,13 @@
         "It is ready when the potatoes are golden and the chicken is cooked through. Rest 5 minutes and spoon the tray juices over."
       ],
       "notes": "",
-      "macros": { "calories": 450, "protein": 42, "carbs": 27, "fat": 19, "fiber": 3 },
+      "macros": {
+        "calories": 450,
+        "protein": 42,
+        "carbs": 27,
+        "fat": 19,
+        "fiber": 3
+      },
       "macrosEstimated": true
     },
     {
@@ -83,22 +919,56 @@
       "servings": 1,
       "prepMinutes": 5,
       "cookMinutes": 0,
-      "tags": ["sample", "high protein", "no cook"],
-      "source": { "name": "Sample recipe", "url": "" },
+      "tags": [
+        "sample",
+        "high protein",
+        "no cook"
+      ],
+      "source": {
+        "name": "Sample recipe",
+        "url": ""
+      },
       "image": "",
       "ingredients": [
-        { "qty": 200, "unit": "g", "item": "Greek yogurt, 2% fat" },
-        { "qty": 20, "unit": "g", "item": "walnuts", "note": "roughly chopped" },
-        { "qty": 80, "unit": "g", "item": "strawberries or other berries" },
-        { "qty": 1, "unit": "tsp", "item": "honey" },
-        { "qty": "", "unit": "", "item": "pinch of cinnamon" }
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Greek yogurt, 2% fat"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "item": "walnuts",
+          "note": "roughly chopped"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "strawberries or other berries"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "honey"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "pinch of cinnamon"
+        }
       ],
       "steps": [
         "Spoon the yogurt into a bowl.",
         "Top with the berries and walnuts, drizzle with the honey and finish with cinnamon."
       ],
       "notes": "",
-      "macros": { "calories": 325, "protein": 24, "carbs": 22, "fat": 17, "fiber": 3 },
+      "macros": {
+        "calories": 325,
+        "protein": 24,
+        "carbs": 22,
+        "fat": 17,
+        "fiber": 3
+      },
       "macrosEstimated": true
     }
   ]

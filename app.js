@@ -12,35 +12,6 @@
 
   const SQUIGGLE = (color) => `<svg class="squiggle" width="118" height="12" viewBox="0 0 118 12" fill="none" aria-hidden="true"><path d="M2 6c7-6 12-6 19 0s12 6 19 0 12-6 19 0 12 6 19 0 12-6 19 0 12 6 19 0" stroke="${color}" stroke-width="3.5" stroke-linecap="round"/></svg>`;
 
-  const ring = (id, text, fill) => `
-    <svg viewBox="0 0 200 200" aria-hidden="true">
-      <defs><path id="${id}" d="M100,100 m-70,0 a70,70 0 1,1 140,0 a70,70 0 1,1 -140,0"/></defs>
-      ${fill ? `<circle cx="100" cy="100" r="98" fill="${fill}"/>` : ''}
-      <text font-family="DM Sans, sans-serif" font-size="17" font-weight="700" letter-spacing="5.2" fill="#36381c">
-        <textPath href="#${id}">${text}</textPath>
-      </text>
-      <g transform="translate(100 100)" fill="none" stroke="#8566ad" stroke-width="5" stroke-linecap="round">
-        <path d="M-22 -8h44a22 22 0 0 1-44 0z" fill="#8566ad"/>
-        <path d="M-8 -26c-5-6 5-9 0-15M8 -26c-5-6 5-9 0-15"/>
-      </g>
-    </svg>`;
-
-  const BOWL = `
-    <svg class="bowl" viewBox="0 0 440 400" aria-hidden="true">
-      <ellipse cx="220" cy="352" rx="150" ry="20" fill="#a84522"/>
-      <path d="M150 300h140l-14 46a12 12 0 0 1-12 9h-88a12 12 0 0 1-12-9z" fill="#b9a8cf"/>
-      <path d="M40 176h360c0 92-74 150-180 150S40 268 40 176z" fill="#d2c4e0"/>
-      <path d="M76 214c14 52 60 86 128 92" fill="none" stroke="#f7ebde" stroke-width="9" stroke-linecap="round" opacity=".7"/>
-      <ellipse cx="220" cy="176" rx="180" ry="34" fill="#b9a8cf"/>
-      <ellipse cx="220" cy="176" rx="160" ry="24" fill="#f3c665"/>
-      <circle cx="160" cy="170" r="17" fill="#dd6f58"/><circle cx="262" cy="180" r="14" fill="#dd6f58"/>
-      <circle cx="212" cy="166" r="11" fill="#f7ebde"/><circle cx="300" cy="166" r="9" fill="#f7ebde"/>
-      <path d="M118 176c14-16 30-14 38-4M226 186c12-10 26-8 32 0M288 178c8-12 24-12 32-4" fill="none" stroke="#59682f" stroke-width="8" stroke-linecap="round"/>
-      <g fill="none" stroke="#f7ebde" stroke-width="9" stroke-linecap="round" opacity=".9">
-        <path d="M160 112c-18-22 18-34 0-58"/><path d="M220 100c-18-24 18-38 0-64"/><path d="M280 112c-18-22 18-34 0-58"/>
-      </g>
-    </svg>`;
-
   const art = (r) => {
     const c = cat(r.category);
     const img = r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : `<span class="initial" aria-hidden="true">${esc(r.title.trim()[0] || '?')}</span>`;
@@ -85,53 +56,13 @@
     return list.length ? list.map(card).join('') : `<p class="empty">No recipes match that yet.</p>`;
   }
 
-  function renderHome() {
-    const usedCats = new Set(DATA.recipes.map((r) => r.category)).size;
-    app.innerHTML = `
-      <section class="hero">
-        <div class="hero-text">
-          <p class="eyebrow">Home cooking</p>
-          <h1>Good food, written down.</h1>
-          ${SQUIGGLE('#8566ad')}
-          <p class="lead">Recipes worth keeping, with the macros already worked out.</p>
-          <a class="btn" href="#/recipes">Browse all recipes <span aria-hidden="true">→</span></a>
-        </div>
-        <div class="hero-art">${BOWL}<div class="badge">${ring('ring-a', 'MADE AT HOME · WITH LOVE · ', '#f3c665')}</div></div>
-      </section>
-      <section class="band" aria-label="At a glance"><div class="band-inner">
-        <div class="band-item"><span class="band-num">${DATA.recipes.length}</span><span>Recipes<br>saved</span></div>
-        <div class="band-item"><span class="band-num">${usedCats}</span><span>Categories<br>so far</span></div>
-        <div class="band-item"><span class="band-num">%</span><span>Macros on<br>every recipe</span></div>
-        <div class="band-item"><span class="band-num">×</span><span>Scales to<br>any serving</span></div>
-      </div></section>
-      <section class="collection" id="recipes">
-        <div class="intro">
-          <p class="eyebrow">The collection</p>
-          <h2>Better home cooking.</h2>
-          ${SQUIGGLE('#c2542b')}
-          <p>Newest first. Pick a category or search by ingredient.</p>
-          <a class="link-underline" href="#/recipes">See all recipes</a>
-          ${chips()}
-        </div>
-        <div class="grid" id="grid">${gridHtml()}</div>
-      </section>
-      <section class="feature">
-        <div class="feature-main">
-          <p class="eyebrow">Cooking made simple</p>
-          <h2>Every day is a good cooking day.</h2>
-          <p>Tick off ingredients as you go and change the servings to fit the table.</p>
-          <a class="link-underline" href="#/recipes">Explore recipes</a>
-        </div>
-        <div class="stamp">${ring('ring-b', 'GOOD FOOD · GOOD MOOD · GOOD FOOD · ', '')}</div>
-      </section>`;
-  }
-
   function renderList() {
     app.innerHTML = `
       <section class="collection full">
         <div class="intro">
           <p class="eyebrow">All recipes</p>
           <h2>The whole book.</h2>
+          ${SQUIGGLE('#8566ad')}
           ${chips()}
         </div>
         <div class="grid" id="grid">${gridHtml()}</div>
@@ -202,7 +133,7 @@
           <div class="recipe-art" style="${a.style}">${a.inner}</div>
         </div>
         <section class="macros" aria-label="Macros per serving">
-          <div class="macros-head"><span>Macros per serving</span>${r.macrosEstimated ? '<span class="pill">Estimated</span>' : '<span class="pill">From the source</span>'}</div>
+          <div class="macros-head"><span>Macros per serving</span><span class="pill">${r.macrosEstimated === 'partial' ? 'Partly estimated' : r.macrosEstimated ? 'Estimated' : 'From the source'}</span></div>
           <div class="macros-grid">
             ${macro(m.calories, '', 'Kcal')}${macro(m.protein, 'g', 'Protein')}${macro(m.carbs, 'g', 'Carbs')}${macro(m.fat, 'g', 'Fat')}${macro(m.fiber, 'g', 'Fibre')}
           </div>
@@ -230,8 +161,7 @@
     const hash = location.hash.replace(/^#\/?/, '');
     document.title = "Katerina's Kitchen · Recipe Book";
     if (hash.startsWith('recipe/')) renderRecipe(decodeURIComponent(hash.slice(7)));
-    else if (hash === 'recipes') renderList();
-    else renderHome();
+    else renderList();
     window.scrollTo(0, 0);
   }
 
@@ -255,7 +185,6 @@
     .then((res) => { if (!res.ok) throw new Error(res.status); return res.json(); })
     .then((d) => {
       DATA = d;
-      document.getElementById('footer-count').textContent = `${d.recipes.length} recipes`;
       route();
     })
     .catch(() => { app.innerHTML = '<section class="recipe"><p class="empty">Could not load the recipes file.</p></section>'; });
