@@ -108,15 +108,15 @@
         "Bake for 1 hour. After the first 30 minutes cover the tray with foil.",
         "Let it cool slightly before serving."
       ],
-      "notes": "Every layer is seasoned, so go lightly with the salt. If it releases a lot of liquid at the end, spoon it off carefully. Kcal, protein and carbs are from the source. Fat and fibre are estimated.",
+      "notes": "Every layer is seasoned, so go lightly with the salt. If it releases a lot of liquid at the end, spoon it off carefully. Macros are estimated from the ingredients, assuming about 2 tbsp olive oil.",
       "macros": {
-        "calories": 644,
-        "protein": 56,
-        "carbs": 53,
-        "fat": 24,
+        "calories": 505,
+        "protein": 43,
+        "carbs": 16,
+        "fat": 30,
         "fiber": 3
       },
-      "macrosEstimated": "partial"
+      "macrosEstimated": true
     },
     {
       "id": "cottage-cheese-lasagna",
