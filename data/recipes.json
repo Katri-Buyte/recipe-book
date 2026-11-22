@@ -43,6 +43,310 @@
   ],
   "recipes": [
     {
+      "id": "buffalo-chicken-hot-pockets",
+      "title": "Buffalo chicken hot pockets",
+      "category": "mains",
+      "description": "Two-ingredient yogurt dough folded around shredded chicken in a creamy high-protein buffalo sauce and mozzarella. Makes 5, and they freeze well.",
+      "added": "2026-11-22",
+      "servings": 5,
+      "prepMinutes": 25,
+      "cookMinutes": 20,
+      "tags": [
+        "chicken",
+        "meal prep",
+        "high protein",
+        "freezer friendly",
+        "ninja speedi"
+      ],
+      "source": {
+        "name": "Baxter Coaches on Facebook",
+        "url": "https://www.facebook.com/reel/2272548426857832"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "self-raising flour",
+          "note": "plus extra for kneading",
+          "group": "Dough"
+        },
+        {
+          "qty": 260,
+          "unit": "g",
+          "item": "light Greek yogurt",
+          "note": "0 to 2%",
+          "group": "Dough"
+        },
+        {
+          "qty": 7,
+          "unit": "g",
+          "item": "garlic salt",
+          "group": "Dough"
+        },
+        {
+          "qty": 4,
+          "unit": "g",
+          "item": "dried Italian herbs",
+          "group": "Dough"
+        },
+        {
+          "qty": 450,
+          "unit": "g",
+          "item": "roast chicken meat",
+          "note": "shredded, skin and bones removed (about 1 roast chicken)",
+          "group": "Filling"
+        },
+        {
+          "qty": 195,
+          "unit": "g",
+          "item": "light mozzarella",
+          "note": "grated",
+          "group": "Filling"
+        },
+        {
+          "qty": 5,
+          "unit": "g",
+          "item": "fresh chives",
+          "note": "finely chopped",
+          "group": "Filling"
+        },
+        {
+          "qty": 168,
+          "unit": "g",
+          "item": "light cottage cheese",
+          "group": "Buffalo sauce"
+        },
+        {
+          "qty": 28,
+          "unit": "g",
+          "item": "light cream cheese",
+          "group": "Buffalo sauce"
+        },
+        {
+          "qty": 4,
+          "unit": "g",
+          "item": "garlic salt",
+          "group": "Buffalo sauce"
+        },
+        {
+          "qty": 1.5,
+          "unit": "g",
+          "item": "black pepper",
+          "group": "Buffalo sauce"
+        },
+        {
+          "qty": 1.5,
+          "unit": "g",
+          "item": "onion powder",
+          "group": "Buffalo sauce"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "item": "buffalo wing hot sauce",
+          "note": "such as Frank’s RedHot",
+          "group": "Buffalo sauce"
+        },
+        {
+          "qty": 30,
+          "unit": "ml",
+          "item": "skimmed milk",
+          "group": "Buffalo sauce"
+        }
+      ],
+      "steps": [
+        "Shred the chicken with two forks and put it in a large bowl with the chives.",
+        "Blend all the sauce ingredients until smooth, pour over the chicken and mix until coated.",
+        "In another bowl mix the flour, yogurt, garlic salt and herbs until a dough forms.",
+        "Knead on a floured surface for 1 to 2 minutes until smooth, adding a little flour so it does not stick.",
+        "Divide into 5 balls of about 104 g and roll each into an oval 3 to 4 mm thick.",
+        "Spoon the buffalo chicken onto one half of each oval and top with 39 g of mozzarella.",
+        "Fold the dough over and press the edges closed with a fork.",
+        "Heat a frying pan over medium-low heat with a spray of oil. Cook the pockets for 4 to 5 minutes per side with a lid on, until golden and cooked through and the cheese has melted.",
+        "To reheat: wrap in a damp paper towel and microwave 1 to 2 minutes from the fridge or 3 to 4 from frozen, then crisp in a hot pan for 1 to 2 minutes per side if you like."
+      ],
+      "speedi": {
+        "origin": "adapted",
+        "steps": [
+          {
+            "food": "Cooking the pockets, 2 or 3 at a time",
+            "fn": "Air Fry",
+            "temp": 180,
+            "time": "12 to 15 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Spray lightly with oil and turn halfway. They are done when golden on both sides."
+          },
+          {
+            "food": "Reheating from the fridge",
+            "fn": "Air Fry",
+            "temp": 170,
+            "time": "6 to 8 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "From frozen, thaw in the microwave for 2 minutes first, then air fry."
+          }
+        ],
+        "note": "Adapted from the pan method (4 to 5 minutes per side with a lid). Check the first one is cooked through in the middle."
+      },
+      "notes": "Buffalo hot sauce is vinegar-based; if you would rather avoid vinegar, use a little chilli paste or sriracha thinned with milk. Macros are estimated from the ingredients; the source gives none.",
+      "macros": {
+        "calories": 500,
+        "protein": 50,
+        "carbs": 41,
+        "fat": 14,
+        "fiber": 2
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "banana-chocolate-biscuit-slice",
+      "title": "No-bake banana chocolate biscuit slice",
+      "category": "sweets",
+      "description": "Sugar-free chocolate, strained yogurt and banana set around broken digestives. Five minutes of work, two hours in the fridge.",
+      "added": "2026-11-22",
+      "servings": 24,
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "tags": [
+        "no bake",
+        "no added sugar",
+        "greek"
+      ],
+      "source": {
+        "name": "Live Kitchen on Facebook",
+        "url": "https://www.facebook.com/reel/1664717338370905"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "digestive biscuits",
+          "note": "sugar-free"
+        },
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "dark chocolate couverture",
+          "note": "sugar-free"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "strained Greek yogurt",
+          "note": "2% works"
+        },
+        {
+          "qty": 3,
+          "unit": "",
+          "item": "medium bananas"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "a 20 cm tin",
+          "note": "lined with baking paper"
+        }
+      ],
+      "steps": [
+        "Melt the chocolate in a bowl over a pan of simmering water.",
+        "Purée the bananas in a food processor.",
+        "Mix the melted chocolate with the yogurt and banana.",
+        "Break the biscuits into pieces and stir them in.",
+        "Pour into the lined tin and smooth the top.",
+        "Chill for 2 hours, then cut into pieces."
+      ],
+      "notes": "No added sugar does not mean light: the whole tray is close to 5,000 kcal. Cut into 24 small squares (about 205 kcal each), or 16 larger ones (about 305 kcal). Keep it in the fridge. The source gives no macros, so they are estimated, assuming 2% yogurt and typical sugar-free biscuits and chocolate.",
+      "macros": {
+        "calories": 205,
+        "protein": 4.5,
+        "carbs": 24,
+        "fat": 11.5,
+        "fiber": 3
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "protein-chocolate-hazelnut-spread",
+      "title": "Protein chocolate hazelnut spread",
+      "category": "snacks",
+      "description": "A thick Nutella-style spread from roasted hazelnuts, chocolate protein powder and cocoa, at about 34 kcal a tablespoon.",
+      "added": "2026-11-22",
+      "servings": 13,
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "tags": [
+        "high protein",
+        "blender",
+        "no added sugar"
+      ],
+      "source": {
+        "name": "Nick Kazamias (NickKaz Fit) on Facebook",
+        "url": "https://www.facebook.com/reel/1332190289033794"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 34,
+          "unit": "g",
+          "item": "raw hazelnuts"
+        },
+        {
+          "qty": 95,
+          "unit": "ml",
+          "item": "unsweetened almond milk",
+          "note": "plus a little extra if needed"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "scoops chocolate protein powder",
+          "note": "casein or a whey and casein blend, about 60 g"
+        },
+        {
+          "qty": 8,
+          "unit": "g",
+          "item": "cocoa powder",
+          "note": "about 1½ tbsp"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "granulated sweetener",
+          "note": "such as erythritol"
+        },
+        {
+          "qty": 0.25,
+          "unit": "tsp",
+          "item": "salt"
+        },
+        {
+          "qty": 1,
+          "unit": "g",
+          "item": "xanthan gum",
+          "note": "optional, about ⅓ tsp, for extra thickness"
+        }
+      ],
+      "steps": [
+        "Roast the hazelnuts at 175°C for 8 to 10 minutes, then rub the skins off firmly with a clean tea towel.",
+        "Blend the hazelnuts on their own in a small food processor until completely smooth, glossy and runny.",
+        "Add the almond milk, protein powder, cocoa, sweetener, salt and xanthan gum if using, and blend until thick and smooth.",
+        "If it is too thick, add almond milk a teaspoon at a time. If it is too thin, let it rest, then add a pinch more xanthan gum.",
+        "Chill for 30 to 45 minutes to set; it firms up more overnight. Stir before spreading."
+      ],
+      "notes": "One serving is 1 tablespoon; the batch makes about 13. Casein or a whey and casein blend gives a much thicker spread than pure whey. Keep it in the fridge. Macros are from the source (it counts net carbs); fibre is estimated, and the optional xanthan gum is not included.",
+      "macros": {
+        "calories": 34,
+        "protein": 4.4,
+        "carbs": 1,
+        "fat": 1.8,
+        "fiber": 0.5
+      },
+      "macrosEstimated": "partial"
+    },
+    {
       "id": "caramelised-onion-chicken-pasta",
       "title": "Caramelised onion chicken pasta",
       "category": "mains",
