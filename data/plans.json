@@ -244,7 +244,8 @@
                     "amount": 1,
                     "label": "1 tsp honey"
                   }
-                ]
+                ],
+                "recipe": "greek-yogurt-bowl"
               }
             ],
             "lunch": [
@@ -316,7 +317,8 @@
                     "amount": 40,
                     "label": "40 g avocado"
                   }
-                ]
+                ],
+                "recipe": "eggs-and-toast"
               }
             ],
             "lunch": [
@@ -398,7 +400,8 @@
                     "amount": 1,
                     "label": "1 tsp honey"
                   }
-                ]
+                ],
+                "recipe": "greek-yogurt-bowl"
               }
             ],
             "lunch": [
@@ -470,7 +473,8 @@
                     "amount": 1,
                     "label": "1 tsp honey"
                   }
-                ]
+                ],
+                "recipe": "greek-yogurt-bowl"
               }
             ],
             "lunch": [
@@ -558,7 +562,8 @@
                     "amount": 1,
                     "label": "1 tsp honey"
                   }
-                ]
+                ],
+                "recipe": "greek-yogurt-bowl"
               }
             ],
             "lunch": [
@@ -645,7 +650,8 @@
                     "amount": 1,
                     "label": "1 tsp honey"
                   }
-                ]
+                ],
+                "recipe": "greek-yogurt-bowl"
               }
             ],
             "lunch": [
@@ -737,7 +743,8 @@
                     "amount": 1,
                     "label": "1 tsp honey"
                   }
-                ]
+                ],
+                "recipe": "greek-yogurt-bowl"
               }
             ],
             "lunch": [

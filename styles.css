@@ -348,3 +348,5 @@ main:focus { outline: none; }
   .speedi-grid { grid-template-columns: 1fr 1fr; }
   .speedi-grid dd { font-size: 18px; }
 }
+
+.meal-group-name a { text-decoration-color: var(--purple); text-decoration-thickness: 2px; text-underline-offset: 3px; }

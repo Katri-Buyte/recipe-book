@@ -43,6 +43,444 @@
   ],
   "recipes": [
     {
+      "id": "avocado-toast-egg",
+      "title": "Avocado toast with egg",
+      "category": "breakfast",
+      "description": "Two slices of wholegrain toast with mashed avocado and a boiled egg.",
+      "added": "2026-11-22",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "tags": [
+        "vegetarian",
+        "quick",
+        "high fibre",
+        "meal plan basic"
+      ],
+      "source": {
+        "name": "Katerina's Kitchen basics",
+        "url": ""
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "slices wholegrain bread"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "avocado"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "egg"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt, pepper and chilli flakes"
+        }
+      ],
+      "steps": [
+        "Boil the egg for 7 to 9 minutes, cool in cold water and peel.",
+        "Toast the bread and mash the avocado onto it with salt and pepper.",
+        "Slice the egg on top and finish with chilli flakes."
+      ],
+      "notes": "Macros are calculated from typical label values, the same ones the meal plan uses.",
+      "macros": {
+        "calories": 348,
+        "protein": 16,
+        "carbs": 37,
+        "fat": 15,
+        "fiber": 9
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "eggs-and-toast",
+      "title": "Boiled eggs on toast with avocado",
+      "category": "breakfast",
+      "description": "Two boiled eggs, a slice of wholegrain toast and a little avocado.",
+      "added": "2026-11-22",
+      "servings": 1,
+      "prepMinutes": 2,
+      "cookMinutes": 10,
+      "tags": [
+        "high protein",
+        "quick",
+        "vegetarian",
+        "meal plan basic"
+      ],
+      "source": {
+        "name": "Katerina's Kitchen basics",
+        "url": ""
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "eggs"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "slice wholegrain bread"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "avocado"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt, pepper and chilli flakes"
+        }
+      ],
+      "steps": [
+        "Bring a small pot of water to the boil, lower in the eggs and cook 7 minutes for jammy yolks or 9 to 10 minutes for firm.",
+        "Move the eggs to cold water for a minute, then peel.",
+        "Toast the bread, mash the avocado on top and season. Serve with the eggs."
+      ],
+      "notes": "Boil a batch of eggs on Sunday; they keep 5 days in the fridge unpeeled. Macros are calculated from typical label values, the same ones the meal plan uses.",
+      "macros": {
+        "calories": 306,
+        "protein": 18,
+        "carbs": 20,
+        "fat": 17,
+        "fiber": 6
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "greek-yogurt-bowl",
+      "title": "Greek yogurt bowl",
+      "category": "breakfast",
+      "description": "Thick Greek yogurt with oats, fruit and a little honey. Five minutes, no cooking.",
+      "added": "2026-11-22",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "tags": [
+        "high protein",
+        "no cook",
+        "vegetarian",
+        "meal plan basic"
+      ],
+      "source": {
+        "name": "Katerina's Kitchen basics",
+        "url": ""
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "Greek yogurt 2%"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "rolled oats"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "strawberries",
+          "note": "or ½ banana, sliced"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "honey"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "pinch of cinnamon",
+          "note": "optional"
+        }
+      ],
+      "steps": [
+        "Spoon the yogurt into a bowl.",
+        "Top with the oats and fruit, drizzle with the honey and finish with cinnamon."
+      ],
+      "notes": "Stir the oats in the night before if you like them soft. Macros are calculated from typical label values, the same ones the meal plan uses.",
+      "macros": {
+        "calories": 350,
+        "protein": 30,
+        "carbs": 41,
+        "fat": 7,
+        "fiber": 5
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "breakfast-quesadilla",
+      "title": "High-protein breakfast quesadilla",
+      "category": "breakfast",
+      "description": "Scrambled egg with cottage cheese, chicken sausage and cheddar, crisped in a tortilla.",
+      "added": "2026-11-22",
+      "servings": 1,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "tags": [
+        "high protein",
+        "quick",
+        "chicken"
+      ],
+      "source": {
+        "name": "Skinnytaste",
+        "url": "https://www.skinnytaste.com/breakfast-quesadilla/"
+      },
+      "image": "https://www.skinnytaste.com/wp-content/uploads/2025/01/Breakfast-Quesadilla-05.jpg",
+      "ingredients": [
+        {
+          "qty": 35,
+          "unit": "g",
+          "item": "cooked chicken sausage",
+          "note": "about 2 small links, chopped"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "large egg"
+        },
+        {
+          "qty": 30,
+          "unit": "ml",
+          "item": "egg whites",
+          "note": "or 1 more egg"
+        },
+        {
+          "qty": 3,
+          "unit": "tbsp",
+          "item": "light cottage cheese"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "spring onion",
+          "note": "chopped"
+        },
+        {
+          "qty": 28,
+          "unit": "g",
+          "item": "light cheddar",
+          "note": "grated"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "wholewheat tortilla",
+          "note": "about 18 cm, high-fibre if you can find it"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and black pepper"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "olive oil spray"
+        }
+      ],
+      "steps": [
+        "Brown the sausage in a small non-stick pan over medium heat until crisp at the edges, then set aside.",
+        "Meanwhile whisk the egg, egg whites, cottage cheese, spring onion, salt and pepper.",
+        "Spray the pan and cook the eggs over medium heat, folding as they set, for 2 to 3 minutes until no longer wet.",
+        "Heat a clean large pan over medium-low heat, spray it and lay in the tortilla.",
+        "Spread half the cheese over one half, top with the egg, sausage and remaining cheese. Cook 2 to 3 minutes until crisp underneath, fold, flip and cook until the cheese melts.",
+        "Cut into three and serve."
+      ],
+      "notes": "The source uses an American low-carb tortilla (very high in fibre), so with a regular wholewheat tortilla expect about 30 kcal more and fewer grams of fibre. Swap the sausage for turkey ham, or leave it out and add peppers or mushrooms. Macros are from the source.",
+      "macros": {
+        "calories": 345,
+        "protein": 35,
+        "carbs": 25,
+        "fat": 18,
+        "fiber": 18
+      },
+      "macrosEstimated": false
+    },
+    {
+      "id": "spinach-protein-pancakes",
+      "title": "Spinach protein pancakes",
+      "category": "breakfast",
+      "description": "Green buckwheat pancakes with buttermilk and a pinch of paprika, good with poached eggs.",
+      "added": "2026-11-22",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "tags": [
+        "vegetarian",
+        "gluten free",
+        "freezer friendly"
+      ],
+      "source": {
+        "name": "BBC Good Food",
+        "url": "https://www.bbcgoodfood.com/recipes/spinach-protein-pancakes"
+      },
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spinac-protein-pancakes-feb511f.jpg?resize=900%2C471",
+      "ingredients": [
+        {
+          "qty": 284,
+          "unit": "ml",
+          "item": "buttermilk"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "egg",
+          "note": "beaten"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "spinach"
+        },
+        {
+          "qty": 175,
+          "unit": "g",
+          "item": "buckwheat flour"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "gluten-free baking powder"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "pinch of paprika"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "salt"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "a little rapeseed oil",
+          "note": "for frying"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "2 poached eggs per person",
+          "note": "optional, to serve"
+        }
+      ],
+      "steps": [
+        "Boil the kettle. Put the buttermilk and beaten egg in a food processor.",
+        "Put the spinach in a colander and pour boiling water over it to wilt. Squeeze out the water, add to the processor and blitz to a smooth purée.",
+        "Mix the flour, baking powder, paprika and salt in a bowl, then gradually stir in the purée. If it is thick, loosen with 1 tbsp water.",
+        "Heat a drizzle of oil in a large non-stick pan over medium heat and add 2 or 3 ladles of batter. Cook 1 to 2 minutes until bubbles appear, flip and cook 1 minute more.",
+        "Repeat until you have 12 pancakes. Serve with poached eggs if you like."
+      ],
+      "notes": "One serving is 3 pancakes. Source macros are for the pancakes only; 2 poached eggs add about 145 kcal and 13 g protein, which makes it a 25 g protein breakfast.",
+      "macros": {
+        "calories": 214,
+        "protein": 11,
+        "carbs": 34,
+        "fat": 4,
+        "fiber": 2
+      },
+      "macrosEstimated": false
+    },
+    {
+      "id": "protein-pancakes-banana",
+      "title": "Protein pancakes with banana",
+      "category": "breakfast",
+      "description": "Blender pancakes made from eggs, oats, banana and protein powder.",
+      "added": "2026-11-22",
+      "servings": 2,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "tags": [
+        "high protein",
+        "blender",
+        "vegetarian"
+      ],
+      "source": {
+        "name": "BBC Good Food",
+        "url": "https://www.bbcgoodfood.com/recipes/protein-pancakes-with-banana"
+      },
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2024/05/Protein-pancakes-with-banana-51e78bb.jpg?resize=900%2C471",
+      "ingredients": [
+        {
+          "qty": 3,
+          "unit": "",
+          "item": "eggs"
+        },
+        {
+          "qty": 75,
+          "unit": "g",
+          "item": "porridge oats"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "large ripe banana"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "protein powder",
+          "note": "any kind, about 20 g"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "milk",
+          "note": "any kind"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "baking powder"
+        },
+        {
+          "qty": 0.25,
+          "unit": "tsp",
+          "item": "ground cinnamon"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "a little neutral oil",
+          "note": "for the pan"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "Greek yogurt and sliced banana",
+          "note": "to serve"
+        }
+      ],
+      "steps": [
+        "Put the eggs, oats, banana, protein powder, milk, baking powder and cinnamon in a blender and blitz for 1 to 2 minutes until smooth. If the oats have not broken down, blitz for another minute.",
+        "Heat a drizzle of oil in a pan and ladle in 2 or 3 rounds of batter with space between them.",
+        "Cook 1 to 2 minutes until bubbles appear and the underside is golden, then flip and cook 1 minute more. Keep warm in a low oven while you cook the rest.",
+        "Serve with a spoon of Greek yogurt and sliced banana."
+      ],
+      "notes": "The original also tops them with maple syrup; leave it out or use a little honey. Macros are from the source per serving.",
+      "macros": {
+        "calories": 400,
+        "protein": 28,
+        "carbs": 38,
+        "fat": 14,
+        "fiber": 4
+      },
+      "macrosEstimated": false
+    },
+    {
       "id": "sweet-potato-fries-chili-cheese",
       "title": "Sweet potato fries with chili cheese",
       "category": "salads-sides",

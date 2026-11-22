@@ -35,7 +35,7 @@
   };
 
   const totalTime = (r) => (r.prepMinutes || 0) + (r.cookMinutes || 0);
-  const sorted = () => [...DATA.recipes].sort((a, b) => String(b.added || '').localeCompare(String(a.added || '')));
+  const sorted = () => [...DATA.recipes].sort((a, b) => String(b.added || '').localeCompare(String(a.added || '')) || (safeUrl(b.image) ? 1 : 0) - (safeUrl(a.image) ? 1 : 0));
 
   function filtered() {
     const q = searchInput.value.trim().toLowerCase();
@@ -280,7 +280,7 @@
   function mealHtml(list) {
     if (!list || !list.length) return '<p class="meal-empty">Nothing planned</p>';
     return list.map((x) => (x.group
-      ? `<div class="meal-group"><p class="meal-group-name">${esc(x.group)}</p><ul>${x.items.map(itemHtml).join('')}</ul></div>`
+      ? `<div class="meal-group"><p class="meal-group-name">${x.recipe ? `<a href="#/recipe/${encodeURIComponent(x.recipe)}">${esc(x.group)}</a>` : esc(x.group)}</p><ul>${x.items.map(itemHtml).join('')}</ul></div>`
       : `<ul>${itemHtml(x)}</ul>`)).join('');
   }
 
