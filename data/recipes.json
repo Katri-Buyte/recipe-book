@@ -43,6 +43,365 @@
   ],
   "recipes": [
     {
+      "id": "caramelised-onion-chicken-pasta",
+      "title": "Caramelised onion chicken pasta",
+      "category": "mains",
+      "description": "Oven-caramelised onions and garlic turned into a creamy parmesan sauce, with crisp seasoned chicken thighs. Makes 6 meal-prep portions.",
+      "added": "2026-11-22",
+      "servings": 6,
+      "prepMinutes": 15,
+      "cookMinutes": 70,
+      "tags": [
+        "chicken",
+        "meal prep",
+        "high protein",
+        "batch cooking",
+        "ninja speedi"
+      ],
+      "source": {
+        "name": "Jalalsamfit on Facebook",
+        "url": "https://www.facebook.com/reel/1445638027036836"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1200,
+          "unit": "g",
+          "item": "boneless chicken thighs",
+          "note": "raw, cut into cubes",
+          "group": "Garlic herb chicken"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "salt",
+          "group": "Garlic herb chicken"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "spicy Italian seasoning",
+          "group": "Garlic herb chicken"
+        },
+        {
+          "qty": 3,
+          "unit": "tsp",
+          "item": "dried parsley",
+          "group": "Garlic herb chicken"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "garlic granules or powder",
+          "group": "Garlic herb chicken"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "paprika",
+          "group": "Garlic herb chicken"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "olive oil",
+          "note": "about 2 tbsp",
+          "group": "Garlic herb chicken"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "red onion",
+          "note": "thinly sliced",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "white onion",
+          "note": "thinly sliced",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "sun-dried tomatoes",
+          "note": "drained and chopped",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "salt",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": 3,
+          "unit": "tsp",
+          "item": "Italian seasoning",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "paprika",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "whole garlic bulb",
+          "note": "top sliced off",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "oil spray",
+          "note": "a few seconds",
+          "group": "Caramelised onions"
+        },
+        {
+          "qty": 425,
+          "unit": "g",
+          "item": "light evaporated milk or regular milk",
+          "note": "400 to 450 g",
+          "group": "Creamy sauce"
+        },
+        {
+          "qty": 120,
+          "unit": "g",
+          "item": "light cream cheese",
+          "group": "Creamy sauce"
+        },
+        {
+          "qty": 95,
+          "unit": "g",
+          "item": "parmesan",
+          "note": "grated",
+          "group": "Creamy sauce"
+        },
+        {
+          "qty": 22,
+          "unit": "g",
+          "item": "dark soy sauce",
+          "group": "Creamy sauce"
+        },
+        {
+          "qty": 1.5,
+          "unit": "tbsp",
+          "item": "fresh parsley",
+          "note": "finely chopped",
+          "group": "Creamy sauce"
+        },
+        {
+          "qty": 350,
+          "unit": "g",
+          "item": "spaghetti or linguine",
+          "note": "dry weight",
+          "group": "Creamy sauce"
+        }
+      ],
+      "steps": [
+        "Cut the chicken into cubes, mix with the salt, seasonings and olive oil and set aside.",
+        "Put the sliced onions in a large ovenproof dish with the sun-dried tomatoes, salt, seasonings and a few seconds of oil spray. Mix, set the garlic bulb in the middle and cover with foil.",
+        "Bake at 190°C for 45 minutes, checking halfway, until golden and caramelised.",
+        "Meanwhile cook the pasta in salted water as the packet says and drain.",
+        "Squeeze the soft garlic out of its skins into the onions and mix. While the dish is still hot, add the parsley, soy sauce, parmesan, milk and cream cheese and stir until melted and creamy. Return it to a low oven for a few minutes if you want it thicker, then fold in the pasta.",
+        "Spread the chicken on a lined tray and bake at 200°C for 18 minutes, then grill for 5 minutes until golden and crisp.",
+        "Divide the pasta and chicken into 6 portions."
+      ],
+      "speedi": {
+        "origin": "adapted",
+        "steps": [
+          {
+            "food": "Seasoned chicken thigh cubes, in 2 batches",
+            "fn": "Air Fry",
+            "temp": 200,
+            "time": "15 to 18 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Shake halfway. Chicken thighs are done at 74°C in the middle."
+          }
+        ],
+        "note": "Use the Speedi for the chicken while the onions caramelise in the oven, so both are ready together. Adapted from the oven method (200°C for 18 min plus 5 min under the grill)."
+      },
+      "notes": "This is a big portion (638 kcal). The meal plan can use part portions. Contains a little sun-dried tomato. Macros are from the source; fibre is estimated.",
+      "macros": {
+        "calories": 638,
+        "protein": 58,
+        "carbs": 52,
+        "fat": 21,
+        "fiber": 4
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "bacon-cheeseburger-fries-bake",
+      "title": "Bacon cheeseburger and fries bake",
+      "category": "mains",
+      "description": "Seasoned lean beef, bacon and onion under a layer of crisp potatoes and cheddar, with a homemade burger sauce. Makes 6 meal-prep portions.",
+      "added": "2026-11-22",
+      "servings": 6,
+      "prepMinutes": 15,
+      "cookMinutes": 60,
+      "tags": [
+        "beef",
+        "meal prep",
+        "high protein",
+        "batch cooking"
+      ],
+      "source": {
+        "name": "Adam Wolfe Fitness on Facebook",
+        "url": "https://www.facebook.com/reel/2272957579937441"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 900,
+          "unit": "g",
+          "item": "extra-lean beef mince",
+          "note": "about 4 to 5% fat",
+          "group": "Bake"
+        },
+        {
+          "qty": 680,
+          "unit": "g",
+          "item": "small yellow potatoes",
+          "note": "cut into 1.3 cm cubes",
+          "group": "Bake"
+        },
+        {
+          "qty": 5,
+          "unit": "",
+          "item": "slices lean bacon",
+          "group": "Bake"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "medium onion",
+          "note": "finely diced",
+          "group": "Bake"
+        },
+        {
+          "qty": 115,
+          "unit": "g",
+          "item": "reduced-fat cheddar",
+          "note": "grated",
+          "group": "Bake"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "olive oil spray",
+          "group": "Bake"
+        },
+        {
+          "qty": 75,
+          "unit": "g",
+          "item": "dill pickles",
+          "note": "diced, optional topping",
+          "group": "Bake"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "garlic powder",
+          "group": "Seasoning"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "smoked paprika",
+          "group": "Seasoning"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "onion powder",
+          "group": "Seasoning"
+        },
+        {
+          "qty": 1.5,
+          "unit": "tsp",
+          "item": "salt",
+          "group": "Seasoning"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "black pepper",
+          "group": "Seasoning"
+        },
+        {
+          "qty": 120,
+          "unit": "g",
+          "item": "light mayonnaise",
+          "group": "Burger sauce"
+        },
+        {
+          "qty": 35,
+          "unit": "g",
+          "item": "ketchup",
+          "group": "Burger sauce"
+        },
+        {
+          "qty": 15,
+          "unit": "g",
+          "item": "yellow mustard",
+          "group": "Burger sauce"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "dill pickles",
+          "note": "finely diced",
+          "group": "Burger sauce"
+        },
+        {
+          "qty": 5,
+          "unit": "g",
+          "item": "pickle juice",
+          "note": "optional",
+          "group": "Burger sauce"
+        },
+        {
+          "qty": 1,
+          "unit": "g",
+          "item": "smoked paprika",
+          "note": "a pinch",
+          "group": "Burger sauce"
+        },
+        {
+          "qty": 3,
+          "unit": "g",
+          "item": "white vinegar",
+          "note": "optional",
+          "group": "Burger sauce"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 220°C. Brown the mince in a large pan over medium-high heat, adding the seasoning and breaking it up as it cooks.",
+        "In another pan fry the bacon until crisp, let it cool a little and crumble it.",
+        "Spread the beef in a 23 x 33 cm baking dish and scatter the raw onion and the bacon over it.",
+        "Cover with the potato cubes in as thin a layer as you can and spray them lightly with oil so they brown.",
+        "Bake uncovered for 40 to 50 minutes, until the potatoes are tender.",
+        "Scatter the cheddar over the top and bake 5 to 7 minutes more until melted and golden.",
+        "Meanwhile mix all the sauce ingredients until creamy.",
+        "Divide into 6 portions and serve with the burger sauce and pickles."
+      ],
+      "notes": "The macros depend on very lean (4 to 5%) beef. With regular Greek mince of about 15% fat, each portion has roughly 10 g more fat. The burger sauce has pickles and a little vinegar; leave out the vinegar and pickle juice if you prefer. Keeps 4 days in the fridge. Macros are from the source; fibre is estimated.",
+      "macros": {
+        "calories": 408,
+        "protein": 41,
+        "carbs": 23,
+        "fat": 16,
+        "fiber": 3
+      },
+      "macrosEstimated": "partial"
+    },
+    {
       "id": "brownie-energy-balls",
       "title": "Brownie energy balls",
       "category": "snacks",
