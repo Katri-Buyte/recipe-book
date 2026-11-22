@@ -422,7 +422,7 @@
       "days": [
         {
           "date": "2026-11-23",
-          "prep": "Main prep, about 1 hour with the Speedi running alongside: air fry 800 g chicken breast for Tue to Thu, make the chicken courgette patties (8), cook 300 g brown rice and 300 g orzo (cooked weight), boil 6 eggs. Tonight: pan-grill the steak (10 min).",
+          "prep": "Main prep, about 1 hour with the Speedi running alongside: air fry 400 g chicken breast for Tue and Wed, make the chicken courgette patties (8), cook 300 g brown rice and 150 g orzo (cooked weight), boil 6 eggs. Tonight: pan-grill the steak (10 min).",
           "meals": {
             "breakfast": [
               {
@@ -511,7 +511,7 @@
         },
         {
           "date": "2026-11-24",
-          "prep": "Cook the fakes this evening (about 50 min, mostly hands-off) for Wednesday and Friday lunch.",
+          "prep": "Cook a half batch of fakes this evening (250 g lentils, about 50 min, mostly hands-off) for Wednesday and Friday lunch; freeze what is left.",
           "meals": {
             "breakfast": [
               {
@@ -713,7 +713,7 @@
         },
         {
           "date": "2026-11-26",
-          "prep": "Air fry 400 g chicken breast for Friday and Sunday, and the beef patties for tonight (12 min). Fish or patties, your pick.",
+          "prep": "Air fry 400 g chicken breast for Friday and Sunday, and the beef patty for tonight (12 min). Fish instead of beef works too.",
           "meals": {
             "breakfast": [
               {
@@ -1066,6 +1066,266 @@
               }
             ]
           }
+        }
+      ],
+      "shopping": [
+        {
+          "section": "Meat, fish and eggs",
+          "items": [
+            {
+              "name": "Chicken breast fillets",
+              "qty": "1.2 kg",
+              "note": "800 g plain, 400 g for the carbonara"
+            },
+            {
+              "name": "Chicken mince",
+              "qty": "400 g",
+              "note": "for the patties"
+            },
+            {
+              "name": "Lean beef steak",
+              "qty": "1 of about 190 g"
+            },
+            {
+              "name": "Lean beef mince (5%)",
+              "qty": "about 200 g",
+              "note": "one patty"
+            },
+            {
+              "name": "White fish fillet",
+              "qty": "about 160 g",
+              "note": "cod, hake or sea bream"
+            },
+            {
+              "name": "Lean bacon",
+              "qty": "120 g",
+              "note": "carbonara"
+            },
+            {
+              "name": "Turkey breast slices",
+              "qty": "1 small pack"
+            },
+            {
+              "name": "Eggs",
+              "qty": "15"
+            }
+          ]
+        },
+        {
+          "section": "Dairy",
+          "items": [
+            {
+              "name": "Greek yogurt 2%",
+              "qty": "about 1.2 kg",
+              "note": "e.g. a 1 kg tub plus a 200 g pot; high-protein yogurt is best for the carbonara"
+            },
+            {
+              "name": "Light cottage cheese",
+              "qty": "1 tub (225 g)"
+            },
+            {
+              "name": "Light feta",
+              "qty": "1 small pack (about 200 g)"
+            },
+            {
+              "name": "Light cream cheese",
+              "qty": "1 pack (200 g)",
+              "note": "carbonara"
+            },
+            {
+              "name": "Mozzarella, grated",
+              "qty": "80 g",
+              "note": "patties"
+            },
+            {
+              "name": "Parmesan",
+              "qty": "about 90 g"
+            },
+            {
+              "name": "Milk",
+              "qty": "a little",
+              "note": "mash and pancakes"
+            },
+            {
+              "name": "Protein puddings",
+              "qty": "2"
+            },
+            {
+              "name": "Sugar-free fruit jellies",
+              "qty": "2"
+            }
+          ]
+        },
+        {
+          "section": "Bread, grains and legumes",
+          "items": [
+            {
+              "name": "Wholegrain toast bread",
+              "qty": "1 pack",
+              "note": "6 slices this week"
+            },
+            {
+              "name": "Wholegrain tortillas",
+              "qty": "2"
+            },
+            {
+              "name": "Small wholegrain rusks (paximadia)",
+              "qty": "12"
+            },
+            {
+              "name": "Brown rice",
+              "qty": "1 pack",
+              "note": "about 100 g dry"
+            },
+            {
+              "name": "Orzo (kritharaki)",
+              "qty": "1 pack",
+              "note": "about 60 g dry"
+            },
+            {
+              "name": "Protein penne",
+              "qty": "160 g",
+              "note": "e.g. Barilla Protein+"
+            },
+            {
+              "name": "Rolled oats",
+              "qty": "about 170 g"
+            },
+            {
+              "name": "Small brown lentils",
+              "qty": "250 g",
+              "note": "half batch of fakes"
+            }
+          ]
+        },
+        {
+          "section": "Vegetables",
+          "items": [
+            {
+              "name": "Lettuce and lamb’s lettuce",
+              "qty": "about 1 kg",
+              "note": "10 salads; e.g. 2 lettuces and 2 bags of lamb’s lettuce"
+            },
+            {
+              "name": "Broccoli",
+              "qty": "2 heads (about 600 g)"
+            },
+            {
+              "name": "Potatoes",
+              "qty": "about 700 g"
+            },
+            {
+              "name": "Courgettes",
+              "qty": "3"
+            },
+            {
+              "name": "Peppers",
+              "qty": "3"
+            },
+            {
+              "name": "Cucumbers",
+              "qty": "2"
+            },
+            {
+              "name": "Carrots",
+              "qty": "2"
+            },
+            {
+              "name": "Mushrooms",
+              "qty": "1 pack (250 g)"
+            },
+            {
+              "name": "Avocado",
+              "qty": "1"
+            },
+            {
+              "name": "Onion",
+              "qty": "1"
+            },
+            {
+              "name": "Small leek",
+              "qty": "1"
+            },
+            {
+              "name": "Garlic",
+              "qty": "1 bulb"
+            },
+            {
+              "name": "Tomato",
+              "qty": "1",
+              "note": "for the fakes"
+            },
+            {
+              "name": "Fresh thyme",
+              "qty": "1 small bunch",
+              "note": "or use dried"
+            }
+          ]
+        },
+        {
+          "section": "Fruit and nuts",
+          "items": [
+            {
+              "name": "Green apples",
+              "qty": "2"
+            },
+            {
+              "name": "Bananas",
+              "qty": "3"
+            },
+            {
+              "name": "Kiwi",
+              "qty": "1"
+            },
+            {
+              "name": "Pear",
+              "qty": "1"
+            },
+            {
+              "name": "Strawberries",
+              "qty": "1 small punnet"
+            },
+            {
+              "name": "Unsalted almonds",
+              "qty": "about 50 g"
+            },
+            {
+              "name": "Walnuts",
+              "qty": "about 20 g"
+            }
+          ]
+        },
+        {
+          "section": "Check the cupboard",
+          "items": [
+            {
+              "name": "Olive oil and balsamic"
+            },
+            {
+              "name": "Chicken stock",
+              "qty": "240 ml"
+            },
+            {
+              "name": "Tomato paste"
+            },
+            {
+              "name": "Protein powder",
+              "qty": "for the pancakes"
+            },
+            {
+              "name": "Baking powder"
+            },
+            {
+              "name": "Plain flour",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Cinnamon, bay leaves, oregano"
+            },
+            {
+              "name": "Salt and pepper"
+            }
+          ]
         }
       ]
     }

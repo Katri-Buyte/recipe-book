@@ -350,3 +350,28 @@ main:focus { outline: none; }
 }
 
 .meal-group-name a { text-decoration-color: var(--purple); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
+/* Shopping list */
+.shopping { background: #fbf3ea; border-radius: var(--radius); margin-bottom: 26px; border: 2px solid var(--mustard); }
+.shopping summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 24px; }
+.shopping summary::-webkit-details-marker { display: none; }
+.shopping summary::after { content: "+"; font-family: var(--serif); font-weight: 800; font-size: 26px; line-height: 1; color: var(--terracotta); margin-left: 4px; }
+.shopping[open] summary::after { content: "−"; }
+.shopping-title { font-family: var(--serif); font-variation-settings: "SOFT" 100; font-weight: 800; font-size: 26px; }
+.shopping-count { margin-left: auto; font-size: 12.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; opacity: .75; }
+.shopping-body { padding: 0 24px 22px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 28px; }
+.shop-section h3 { font-family: var(--sans); font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--terracotta); margin: 12px 0 4px; }
+.shop-section ul { list-style: none; margin: 0; padding: 0; }
+.shop-section label { display: flex; gap: 10px; align-items: flex-start; padding: 7px 0; border-bottom: 1px solid rgba(54,56,28,.12); cursor: pointer; }
+.shop-section input { accent-color: var(--purple); width: 18px; height: 18px; margin: 2px 0 0; flex: none; }
+.shop-section b { font-weight: 700; font-size: 14.5px; }
+.shop-qty { font-size: 14px; }
+.shop-section small { display: block; font-size: 12.5px; opacity: .7; line-height: 1.35; }
+.shop-section input:checked + span { opacity: .45; text-decoration: line-through; }
+.shop-reset { grid-column: 1 / -1; justify-self: start; background: none; border: 0; border-bottom: 2px solid currentColor; padding: 0 0 4px; margin-top: 10px; }
+@media (max-width: 900px) { .shopping-body { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) {
+  .shopping summary { padding: 16px 18px; }
+  .shopping-body { grid-template-columns: 1fr; padding: 0 18px 18px; }
+  .shopping-title { font-size: 22px; }
+}

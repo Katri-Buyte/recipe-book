@@ -332,6 +332,7 @@
           <p class="plan-summary-title">Daily average<span>Target ${T.calories.toLocaleString('en-GB')} kcal · ${T.protein} g protein · ${T.carbs} g carbs · ${T.fat} g fat</span></p>
           <div class="plan-summary-bars">${totalsHtml(avg, T)}</div>
         </section>
+        ${shoppingHtml(week)}
         <div class="days">
           ${week.days.map((d, n) => `
             <article class="day${d.date === today ? ' is-today' : ''}" id="day-${d.date}">
@@ -350,6 +351,53 @@
       </section>`;
     const t = document.getElementById(`day-${today}`);
     if (t && !start) t.scrollIntoView({ block: 'start' });
+    wireShopping(week);
+  }
+
+  /* Shopping list: ticks are saved in this browser only */
+  const shopKey = (week) => `shop-${week.start}`;
+  const loadTicks = (week) => { try { return JSON.parse(localStorage.getItem(shopKey(week)) || '{}'); } catch (e) { return {}; } };
+
+  function shoppingHtml(week) {
+    const list = week.shopping || [];
+    if (!list.length) return '';
+    const ticks = loadTicks(week);
+    const total = list.reduce((s, sec) => s + sec.items.length, 0);
+    const done = Object.values(ticks).filter(Boolean).length;
+    return `
+      <details class="shopping" id="shopping">
+        <summary><span class="shopping-title">Shopping list</span><span class="shopping-count" id="shop-count">${done} of ${total} ticked</span></summary>
+        <div class="shopping-body">
+          ${list.map((sec, si) => `
+            <section class="shop-section">
+              <h3>${esc(sec.section)}</h3>
+              <ul>
+                ${sec.items.map((it, ii) => {
+                  const id = `${si}-${ii}`;
+                  return `<li><label><input type="checkbox" data-shop="${id}" ${ticks[id] ? 'checked' : ''}><span><b>${esc(it.name)}</b>${it.qty ? ` <span class="shop-qty">${esc(it.qty)}</span>` : ''}${it.note ? `<small>${esc(it.note)}</small>` : ''}</span></label></li>`;
+                }).join('')}
+              </ul>
+            </section>`).join('')}
+          <button type="button" class="link-underline shop-reset" id="shop-reset">Clear ticks</button>
+        </div>
+      </details>`;
+  }
+
+  function wireShopping(week) {
+    const box = document.getElementById('shopping');
+    if (!box) return;
+    const total = box.querySelectorAll('[data-shop]').length;
+    const update = () => {
+      const ticks = {};
+      box.querySelectorAll('[data-shop]').forEach((c) => { if (c.checked) ticks[c.dataset.shop] = true; });
+      try { localStorage.setItem(shopKey(week), JSON.stringify(ticks)); } catch (e) { /* storage unavailable */ }
+      document.getElementById('shop-count').textContent = `${Object.keys(ticks).length} of ${total} ticked`;
+    };
+    box.addEventListener('change', (e) => { if (e.target.matches('[data-shop]')) update(); });
+    document.getElementById('shop-reset').addEventListener('click', () => {
+      box.querySelectorAll('[data-shop]').forEach((c) => { c.checked = false; });
+      update();
+    });
   }
 
   function route() {
