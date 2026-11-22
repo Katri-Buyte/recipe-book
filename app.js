@@ -10,13 +10,14 @@
     { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const cat = (id) => DATA.categories.find((c) => c.id === id) || { id, name: id, color: '#f3c665' };
   const safeUrl = (u) => (/^https?:\/\//i.test(u || '') ? u : '');
+  const safeImg = (u) => (/^https?:\/\//i.test(u || '') || /^images\/[\w.-]+$/.test(u || '') ? u : '');
 
   const SQUIGGLE = (color) => `<svg class="squiggle" width="118" height="12" viewBox="0 0 118 12" fill="none" aria-hidden="true"><path d="M2 6c7-6 12-6 19 0s12 6 19 0 12-6 19 0 12 6 19 0 12-6 19 0 12 6 19 0" stroke="${color}" stroke-width="3.5" stroke-linecap="round"/></svg>`;
 
   const art = (r) => {
     const c = cat(r.category);
     const initial = `<span class="initial" aria-hidden="true">${esc(r.title.trim()[0] || '?')}</span>`;
-    const img = safeUrl(r.image) ? `<img src="${esc(r.image)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()">${initial}` : initial;
+    const img = safeImg(r.image) ? `<img src="${esc(r.image)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('no-img');this.remove()">${initial}` : initial;
     return { style: `--tile:${esc(c.color)}`, inner: img };
   };
 
@@ -35,7 +36,7 @@
   };
 
   const totalTime = (r) => (r.prepMinutes || 0) + (r.cookMinutes || 0);
-  const sorted = () => [...DATA.recipes].sort((a, b) => String(b.added || '').localeCompare(String(a.added || '')) || (safeUrl(b.image) ? 1 : 0) - (safeUrl(a.image) ? 1 : 0));
+  const sorted = () => [...DATA.recipes].sort((a, b) => String(b.added || '').localeCompare(String(a.added || '')) || (safeImg(b.image) ? 1 : 0) - (safeImg(a.image) ? 1 : 0));
 
   function filtered() {
     const q = searchInput.value.trim().toLowerCase();
@@ -102,7 +103,7 @@
     const cards = HOME_CATS.map((id) => {
       const c = cat(id);
       const list = sorted().filter((r) => r.category === id);
-      const photo = list.find((r) => safeUrl(r.image));
+      const photo = list.find((r) => safeImg(r.image));
       const n = list.length;
       return `
         <button type="button" class="cat-card${n ? '' : ' is-empty'}" data-cat="${esc(id)}" style="--tile:${esc(c.color)}" ${n ? '' : 'aria-disabled="true"'}>
@@ -216,7 +217,7 @@
             </div>
             ${(r.tags || []).length ? `<div class="tags">${r.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</div>` : ''}
           </div>
-          <figure class="recipe-figure"><div class="recipe-art" style="${a.style}">${a.inner}</div>${safeUrl(r.image) && safeUrl(src.url) ? `<figcaption>Photo: <a href="${esc(safeUrl(src.url))}" target="_blank" rel="noopener noreferrer">${esc(src.name || "original recipe")}</a></figcaption>` : ""}</figure>
+          <figure class="recipe-figure"><div class="recipe-art" style="${a.style}">${a.inner}</div>${safeImg(r.image) && safeUrl(src.url) ? `<figcaption>Photo: <a href="${esc(safeUrl(src.url))}" target="_blank" rel="noopener noreferrer">${esc(src.name || "original recipe")}</a></figcaption>` : ""}</figure>
         </div>
         <section class="macros" aria-label="Macros per serving">
           <div class="macros-head"><span>Macros per serving</span><span class="pill">${r.macrosEstimated === 'partial' ? 'Partly estimated' : r.macrosEstimated ? 'Estimated' : 'From the source'}</span></div>
