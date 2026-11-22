@@ -43,6 +43,1048 @@
   ],
   "recipes": [
     {
+      "id": "chicken-quesadilla",
+      "title": "Creamy chicken quesadilla",
+      "category": "mains",
+      "description": "Wholewheat wraps filled with a creamy paprika chicken filling and light cheese, toasted until golden.",
+      "added": "2026-11-22",
+      "servings": 2,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "tags": [
+        "chicken",
+        "high protein",
+        "quick"
+      ],
+      "source": {
+        "name": "FOODIES by Carolina on Instagram",
+        "url": "https://www.instagram.com/p/DfhACh7qeHS/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "wholewheat wraps"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "cooked chicken",
+          "note": "shredded or minced"
+        },
+        {
+          "qty": 0.5,
+          "unit": "",
+          "item": "onion",
+          "note": "chopped"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "chopped"
+        },
+        {
+          "qty": 5,
+          "unit": "",
+          "item": "cherry tomatoes",
+          "note": "optional"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "light whipped fresh cheese",
+          "note": "or low-fat Greek yogurt"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "passata"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "item": "light grated cheese"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt, pepper, paprika, garlic powder and oregano",
+          "note": "to taste"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "a few drops of Tabasco",
+          "note": "optional"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "chopped parsley",
+          "note": "to finish"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "olive oil spray"
+        }
+      ],
+      "steps": [
+        "Spray a pan with oil and soften the onion and garlic. Add the chicken and tomatoes, season, cover and cook for a few minutes.",
+        "Stir in the fresh cheese, passata and Tabasco until creamy.",
+        "Lay a wrap in a clean pan, cover with the grated cheese and the filling, and top with the second wrap.",
+        "Cook 3 to 4 minutes per side until golden.",
+        "Cut into triangles and scatter with parsley. One quesadilla serves 2."
+      ],
+      "notes": "Leave out the cherry tomatoes if you prefer; the passata is enough. Macros are estimated; the post gives none.",
+      "macros": {
+        "calories": 497,
+        "protein": 49,
+        "carbs": 36,
+        "fat": 14.5,
+        "fiber": 4.5
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "protein-tiramisu",
+      "title": "Overnight protein tiramisu",
+      "category": "breakfast",
+      "description": "Coffee and vanilla protein yogurt with sponge fingers, set overnight. Five minutes of work for a dessert-like breakfast.",
+      "added": "2026-11-22",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "tags": [
+        "high protein",
+        "no cook",
+        "overnight",
+        "vegetarian"
+      ],
+      "source": {
+        "name": "Anna (high protein recipes) on Instagram",
+        "url": "https://www.instagram.com/p/DfuGfHooCYJ/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "Greek yogurt"
+        },
+        {
+          "qty": 25,
+          "unit": "ml",
+          "item": "coffee or espresso",
+          "note": "brewed and cooled"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "vanilla protein powder"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "sugar-free syrup or maple syrup"
+        },
+        {
+          "qty": 6,
+          "unit": "",
+          "item": "sponge fingers",
+          "note": "about"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "cocoa powder",
+          "note": "for dusting"
+        }
+      ],
+      "steps": [
+        "Mix the yogurt, coffee, protein powder and syrup until smooth.",
+        "Spoon into a container and press the sponge fingers in so they are covered.",
+        "Cover and chill overnight so the sponge fingers soften. Dust with cocoa just before eating."
+      ],
+      "notes": "Macros are from the post; fibre is estimated.",
+      "macros": {
+        "calories": 420,
+        "protein": 47,
+        "carbs": 47,
+        "fat": 4,
+        "fiber": 1
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "japanese-potato-salad",
+      "title": "High-protein Japanese potato salad",
+      "category": "salads-sides",
+      "description": "Creamy potato salad with boiled eggs, crispy bacon and cucumber in a light yogurt and mayo dressing.",
+      "added": "2026-11-22",
+      "servings": 3,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "tags": [
+        "meal prep",
+        "high protein"
+      ],
+      "source": {
+        "name": "Panacea Palm (Dij) on Instagram",
+        "url": "https://www.instagram.com/p/DfxSMIst9Fr/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "0% Greek yogurt",
+          "group": "Dressing"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "light mayonnaise",
+          "note": "or Kewpie",
+          "group": "Dressing"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "Dijon mustard",
+          "group": "Dressing"
+        },
+        {
+          "qty": 65,
+          "unit": "ml",
+          "item": "low-fat milk",
+          "note": "50 to 80 ml",
+          "group": "Dressing"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "apple cider vinegar",
+          "note": "optional",
+          "group": "Dressing"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "freshly ground black pepper",
+          "group": "Dressing"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "dashi seasoning or MSG",
+          "note": "optional",
+          "group": "Dressing"
+        },
+        {
+          "qty": 260,
+          "unit": "g",
+          "item": "potatoes",
+          "note": "boiled",
+          "group": "Salad"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "item": "eggs",
+          "note": "boiled",
+          "group": "Salad"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "diced bacon",
+          "note": "pan-fried without oil until crisp",
+          "group": "Salad"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "mini cucumbers",
+          "note": "thinly sliced",
+          "group": "Salad"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "diced carrot",
+          "note": "optional, for crunch",
+          "group": "Salad"
+        }
+      ],
+      "steps": [
+        "Boil the potatoes until tender and the eggs for 9 to 10 minutes. Cool both, peel the eggs.",
+        "Fry the diced bacon in a dry pan until crisp and drain on paper.",
+        "Whisk the yogurt, mayonnaise, mustard, milk, vinegar if using, pepper and dashi until smooth.",
+        "Roughly mash the potatoes, leaving some chunks, and chop the eggs.",
+        "Fold everything together with the cucumber, bacon and carrot. Chill before serving."
+      ],
+      "notes": "The post shows the method only in its video, so these steps are my reconstruction from the ingredients. The vinegar is optional; the mustard already gives it tang. Keeps 3 days in the fridge. Macros are from the post; fibre is estimated.",
+      "macros": {
+        "calories": 347,
+        "protein": 25,
+        "carbs": 24,
+        "fat": 15,
+        "fiber": 2
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "cookie-dough-bars",
+      "title": "Cookie dough bars",
+      "category": "sweets",
+      "description": "No-bake almond flour and peanut butter cookie dough with cottage cheese, topped with dark chocolate and sea salt.",
+      "added": "2026-11-22",
+      "servings": 12,
+      "prepMinutes": 15,
+      "cookMinutes": 0,
+      "tags": [
+        "no bake",
+        "gluten free",
+        "vegetarian"
+      ],
+      "source": {
+        "name": "Simon Stubbs on Instagram",
+        "url": "https://www.instagram.com/p/DfwutX7AWeV/"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 115,
+          "unit": "g",
+          "item": "cottage cheese",
+          "note": "about ½ cup"
+        },
+        {
+          "qty": 4,
+          "unit": "tbsp",
+          "item": "peanut butter"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "maple syrup"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "vanilla extract"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "almond flour",
+          "note": "about 1½ cups"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "dark chocolate chips"
+        },
+        {
+          "qty": 125,
+          "unit": "g",
+          "item": "dark chocolate",
+          "note": "half a 250 g bar"
+        },
+        {
+          "qty": 10,
+          "unit": "g",
+          "item": "butter",
+          "note": "a little, for melting"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "flaky sea salt",
+          "note": "to sprinkle"
+        }
+      ],
+      "steps": [
+        "Line a small tin (about 20 x 20 cm) with baking paper.",
+        "Blend the cottage cheese until smooth, then mix in the peanut butter, maple syrup and vanilla.",
+        "Stir in the almond flour until it forms a soft dough, then fold in the chocolate chips.",
+        "Press the dough evenly into the tin.",
+        "Melt the dark chocolate with the butter, pour it over the dough and smooth it out. Sprinkle with sea salt.",
+        "Chill for 1 to 2 hours (or freeze 30 minutes) until set, then cut into 12 bars."
+      ],
+      "notes": "The post shows the method only in its video, so these steps are my reconstruction from the ingredients. Keep them in the fridge. Macros are estimated from the ingredients.",
+      "macros": {
+        "calories": 220,
+        "protein": 6,
+        "carbs": 13,
+        "fat": 16.5,
+        "fiber": 3
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "carbonara-pasta-bake",
+      "title": "Carbonara pasta bake",
+      "category": "mains",
+      "description": "Dump-and-bake high-protein carbonara: protein penne, chicken, bacon and mushrooms baked in a creamy egg and yogurt sauce.",
+      "added": "2026-11-22",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 50,
+      "tags": [
+        "chicken",
+        "meal prep",
+        "high protein",
+        "one dish"
+      ],
+      "source": {
+        "name": "Rise With Teagan on Facebook",
+        "url": "https://www.facebook.com/reel/2682831588781603"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 160,
+          "unit": "g",
+          "item": "protein penne",
+          "note": "uncooked"
+        },
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "chicken breast",
+          "note": "raw, cut into small cubes"
+        },
+        {
+          "qty": 120,
+          "unit": "g",
+          "item": "lean back bacon",
+          "note": "chopped"
+        },
+        {
+          "qty": 160,
+          "unit": "g",
+          "item": "light cream cheese"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "high-protein Greek yogurt"
+        },
+        {
+          "qty": 4,
+          "unit": "tbsp",
+          "item": "grated parmesan",
+          "note": "divided"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "garlic",
+          "note": "minced"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "item": "eggs"
+        },
+        {
+          "qty": 240,
+          "unit": "ml",
+          "item": "chicken stock"
+        },
+        {
+          "qty": 70,
+          "unit": "g",
+          "item": "mushrooms",
+          "note": "sliced"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 180°C.",
+        "Put everything in a baking dish with half the parmesan and mix well, making sure the pasta is covered by the liquid.",
+        "Cover tightly with foil, sprayed with oil underneath so it does not stick, and bake for 35 minutes.",
+        "Remove the foil, sprinkle with the rest of the parmesan and bake 10 minutes more.",
+        "Rest 5 minutes before serving."
+      ],
+      "notes": "Protein pasta (such as Barilla Protein+) is what keeps the carbs low; regular penne adds about 15 g carbs per serving. Macros are from the post; fibre is estimated.",
+      "macros": {
+        "calories": 491,
+        "protein": 50,
+        "carbs": 28,
+        "fat": 18.5,
+        "fiber": 3
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "honey-garlic-parmesan-chicken-potatoes",
+      "title": "Honey garlic parmesan chicken and potatoes",
+      "category": "mains",
+      "description": "Parmesan and honey glazed chicken thighs with crispy potatoes folded through a creamy cottage cheese Tuscan sauce. Makes 10 meal-prep portions.",
+      "added": "2026-11-22",
+      "servings": 10,
+      "prepMinutes": 20,
+      "cookMinutes": 70,
+      "tags": [
+        "chicken",
+        "meal prep",
+        "high protein",
+        "batch cooking",
+        "ninja speedi"
+      ],
+      "source": {
+        "name": "Jalalsamfit on Facebook",
+        "url": "https://www.facebook.com/reel/1611019700577161"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1500,
+          "unit": "g",
+          "item": "boneless chicken thighs",
+          "note": "raw, cubed",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 3,
+          "unit": "tsp",
+          "item": "salt",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 3,
+          "unit": "tsp",
+          "item": "chilli flakes",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 3,
+          "unit": "tsp",
+          "item": "paprika",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "dried parsley",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "garlic granules or powder",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "Italian herbs",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 130,
+          "unit": "g",
+          "item": "Parmigiano Reggiano",
+          "note": "grated",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 45,
+          "unit": "g",
+          "item": "honey",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "item": "olive oil",
+          "note": "about 8 tsp",
+          "group": "Chicken marinade"
+        },
+        {
+          "qty": 15,
+          "unit": "g",
+          "item": "honey",
+          "group": "After cooking"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "item": "parmesan",
+          "note": "grated",
+          "group": "After cooking"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "fresh parsley",
+          "note": "to garnish",
+          "group": "After cooking"
+        },
+        {
+          "qty": 1800,
+          "unit": "g",
+          "item": "white or yellow potatoes",
+          "note": "raw, cubed",
+          "group": "Crispy potatoes"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "paprika",
+          "group": "Crispy potatoes"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "onion powder",
+          "group": "Crispy potatoes"
+        },
+        {
+          "qty": 4,
+          "unit": "tsp",
+          "item": "dried oregano",
+          "group": "Crispy potatoes"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "olive oil spray",
+          "note": "a few seconds",
+          "group": "Crispy potatoes"
+        },
+        {
+          "qty": 700,
+          "unit": "g",
+          "item": "fat-free cottage cheese",
+          "group": "Creamy sauce (blend)"
+        },
+        {
+          "qty": 250,
+          "unit": "ml",
+          "item": "skimmed milk",
+          "group": "Creamy sauce (blend)"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "light evaporated milk",
+          "group": "Creamy sauce (blend)"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "item": "light butter",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "white onion",
+          "note": "finely chopped",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 45,
+          "unit": "g",
+          "item": "garlic",
+          "note": "finely chopped",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "sun-dried tomatoes",
+          "note": "drained and chopped",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "handful of fresh basil",
+          "note": "roughly chopped",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "salt",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "chilli flakes",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "Italian herbs",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "item": "parmesan",
+          "note": "grated",
+          "group": "Creamy sauce (pan)"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "item": "parmesan rind",
+          "note": "in chunks",
+          "group": "Creamy sauce (pan)"
+        }
+      ],
+      "steps": [
+        "Mix the cubed chicken with the seasonings, grated parmesan, honey and olive oil, and set aside.",
+        "Blend the cottage cheese, skimmed milk and evaporated milk until smooth.",
+        "Spread the potatoes on a large lined tray, season, spray with oil, mix and spread out. Bake at 200°C for 35 to 40 minutes until golden and crisp.",
+        "Meanwhile melt the butter in a large deep pan over medium heat. Cook the onion, garlic and sun-dried tomatoes for 10 minutes until soft, then add the seasonings and basil and toast 2 minutes.",
+        "Turn the heat to low, add the blended sauce, grated parmesan and rind, and stir gently until smooth. Do not let it boil.",
+        "Take the potatoes out and spread the chicken on the same tray. Bake at 190°C for 20 minutes, then grill 5 to 6 minutes until golden. Finish with the extra honey and parmesan.",
+        "Fold the potatoes into the sauce and divide everything into 10 portions with the chicken."
+      ],
+      "speedi": {
+        "origin": "adapted",
+        "steps": [
+          {
+            "food": "Marinated chicken cubes, in 2 or 3 batches",
+            "fn": "Air Fry",
+            "temp": 200,
+            "time": "15 to 18 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Shake halfway. The honey and cheese can catch, so check from 12 minutes. Done at 74°C in the middle."
+          }
+        ],
+        "note": "Roast the 1.8 kg of potatoes in the oven (too much for the Speedi) and cook the chicken in the Speedi at the same time, which saves about 25 minutes. Adapted from the oven method (190°C for 20 min plus 5 to 6 min under the grill)."
+      },
+      "notes": "Remove the parmesan rind before serving. Contains sun-dried tomatoes. Macros are from the post; fibre is estimated.",
+      "macros": {
+        "calories": 596,
+        "protein": 54,
+        "carbs": 51,
+        "fat": 19,
+        "fiber": 5
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "rice-paper-buffalo-chicken-pockets",
+      "title": "Rice paper buffalo chicken pockets",
+      "category": "mains",
+      "description": "Creamy buffalo chicken wrapped in egg-dipped rice paper and baked until crisp. Very high in protein, gluten-free.",
+      "added": "2026-11-22",
+      "servings": 7,
+      "prepMinutes": 20,
+      "cookMinutes": 15,
+      "tags": [
+        "chicken",
+        "meal prep",
+        "high protein",
+        "gluten free",
+        "ninja speedi"
+      ],
+      "source": {
+        "name": "Gorillaz on Facebook",
+        "url": "https://www.facebook.com/reel/1088803447191359"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1.36,
+          "unit": "kg",
+          "item": "cooked chicken breast",
+          "note": "shredded"
+        },
+        {
+          "qty": 340,
+          "unit": "g",
+          "item": "cottage cheese",
+          "note": "blended smooth"
+        },
+        {
+          "qty": 80,
+          "unit": "ml",
+          "item": "buffalo hot sauce",
+          "note": "such as Frank’s RedHot"
+        },
+        {
+          "qty": 4,
+          "unit": "tbsp",
+          "item": "spring onion",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "item": "light mozzarella",
+          "note": "grated, a handful"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt, black pepper and onion powder",
+          "note": "to taste"
+        },
+        {
+          "qty": 14,
+          "unit": "",
+          "item": "rice paper sheets",
+          "note": "2 per pocket"
+        },
+        {
+          "qty": 3,
+          "unit": "",
+          "item": "eggs",
+          "note": "beaten, for dipping"
+        }
+      ],
+      "steps": [
+        "Mix the chicken, blended cottage cheese, hot sauce, mozzarella, spring onion and seasoning until creamy and evenly coated.",
+        "Beat the eggs in a shallow dish. Dip 2 rice paper sheets together into the egg just until they start to soften; do not leave them too long.",
+        "Lay the sheets flat, add a generous scoop of filling in the centre, fold in the sides, then the top and bottom, to make a sealed rectangle.",
+        "Place seam-side up on a tray lined with baking paper and bake at 230°C for 10 minutes.",
+        "Switch to a low grill for about 5 minutes until deep golden and crisp. Watch closely, they burn fast."
+      ],
+      "speedi": {
+        "origin": "adapted",
+        "steps": [
+          {
+            "food": "Pockets, 3 or 4 at a time",
+            "fn": "Air Fry",
+            "temp": 200,
+            "time": "10 to 12 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Spray the tray lightly with oil and turn the pockets halfway. Rice paper sticks to bare metal."
+          }
+        ],
+        "note": "Adapted from the oven method (230°C for 10 min plus 5 min under the grill)."
+      },
+      "notes": "The post does not say how many it makes; its macros match about 7 pockets. A lighter, gluten-free cousin of the Baxter Coaches hot pockets. Buffalo sauce is vinegar-based. Macros are from the post (middle of its ranges); fibre is estimated.",
+      "macros": {
+        "calories": 400,
+        "protein": 66,
+        "carbs": 19,
+        "fat": 7,
+        "fiber": 0
+      },
+      "macrosEstimated": "partial"
+    },
+    {
+      "id": "chipotle-beef-tacos",
+      "title": "Crispy chipotle beef tacos with lime crema",
+      "category": "mains",
+      "description": "Smoky chipotle beef and mozzarella folded into mini tortillas and pan-crisped, with a chipotle lime crema.",
+      "added": "2026-11-22",
+      "servings": 6,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "tags": [
+        "beef",
+        "sharing"
+      ],
+      "source": {
+        "name": "Im’s foodstory on Facebook",
+        "url": "https://www.facebook.com/reel/1141851618222733"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "chilli powder",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "garlic powder",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "onion powder",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "smoked paprika",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "dried oregano",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "black pepper",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "ground cumin",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "salt",
+          "group": "Taco seasoning"
+        },
+        {
+          "qty": 900,
+          "unit": "g",
+          "item": "beef mince",
+          "note": "about 20% fat",
+          "group": "Beef"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "taco seasoning",
+          "note": "from above, to taste",
+          "group": "Beef"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "onion",
+          "note": "diced",
+          "group": "Beef"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "ghee or oil",
+          "group": "Beef"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "tomato paste",
+          "group": "Beef"
+        },
+        {
+          "qty": 1.5,
+          "unit": "tbsp",
+          "item": "chipotle peppers in adobo",
+          "note": "roughly chopped, to taste",
+          "group": "Beef"
+        },
+        {
+          "qty": 120,
+          "unit": "ml",
+          "item": "warm water",
+          "group": "Beef"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "garlic",
+          "note": "minced",
+          "group": "Beef"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "sour cream",
+          "group": "Chipotle lime crema"
+        },
+        {
+          "qty": 75,
+          "unit": "g",
+          "item": "mayonnaise",
+          "group": "Chipotle lime crema"
+        },
+        {
+          "qty": 80,
+          "unit": "ml",
+          "item": "buttermilk or water",
+          "group": "Chipotle lime crema"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "lime",
+          "note": "juiced, optional",
+          "group": "Chipotle lime crema"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "taco seasoning",
+          "group": "Chipotle lime crema"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "chipotle peppers in adobo",
+          "note": "chopped",
+          "group": "Chipotle lime crema"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "dried parsley",
+          "group": "Chipotle lime crema"
+        },
+        {
+          "qty": 14,
+          "unit": "",
+          "item": "mini flour tortillas",
+          "note": "12 to 15",
+          "group": "To assemble"
+        },
+        {
+          "qty": 110,
+          "unit": "g",
+          "item": "mozzarella",
+          "note": "grated",
+          "group": "To assemble"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "a little oil",
+          "note": "for frying",
+          "group": "To assemble"
+        }
+      ],
+      "steps": [
+        "Mix all the taco seasoning spices in a bowl.",
+        "Heat the ghee in a pan and soften the onion for a minute. Add the mince and cook over medium heat until it changes colour, then stir in the garlic.",
+        "Add 1 tbsp seasoning, the tomato paste and the chipotle. Cook 2 to 3 minutes, taste and add salt if needed.",
+        "Pour in the warm water and cook 8 to 10 minutes, until the beef is cooked and the water has evaporated.",
+        "For the crema, mix the mayonnaise, sour cream, buttermilk, chipotle, 1 tbsp seasoning, lime juice and parsley until smooth.",
+        "Heat a little oil in a pan over medium heat. Lay in a tortilla, add cheese and beef on one half and fold it over. Cook until crisp and golden on both sides.",
+        "Serve warm with the crema."
+      ],
+      "notes": "The seasoning makes more than you need; keep the rest in a jar. Rich dish: with 20% fat beef it is close to 60 g fat per serving, so use 5% mince and light mayo to bring that down a lot. Leave out the lime if you prefer. One serving is 2 to 3 tacos. Macros are estimated; the post gives none.",
+      "macros": {
+        "calories": 810,
+        "protein": 35,
+        "carbs": 34,
+        "fat": 57,
+        "fiber": 2
+      },
+      "macrosEstimated": true
+    },
+    {
       "id": "buffalo-chicken-hot-pockets",
       "title": "Buffalo chicken hot pockets",
       "category": "mains",
