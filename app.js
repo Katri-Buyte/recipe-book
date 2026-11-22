@@ -24,7 +24,7 @@
     const a = art(r), m = r.macros || {};
     return `
       <a class="card" href="#/recipe/${encodeURIComponent(r.id)}">
-        <div class="card-art" style="${a.style}">${a.inner}</div>
+        <div class="card-art" style="${a.style}">${a.inner}${r.speedi ? '<span class="badge-speedi">Ninja Speedi</span>' : ''}</div>
         <div class="card-body">
           <h3 class="card-title">${esc(r.title)}</h3>
           <p class="card-sub">${esc(cat(r.category).name)}${totalTime(r) ? ' · ' + totalTime(r) + ' min' : ''}</p>
@@ -167,6 +167,27 @@
     return out + (open ? '</ul>' : '');
   }
 
+  function speediHtml(s) {
+    if (!s || !(s.steps || []).length) return '';
+    const cell = (label, value) => `<div><dt>${label}</dt><dd>${esc(value)}</dd></div>`;
+    return `
+      <section class="speedi" aria-label="Ninja Speedi settings">
+        <div class="speedi-head">
+          <h2>Ninja Speedi</h2>
+          <span class="pill ${s.origin === 'recipe' ? '' : 'pill-warn'}">${s.origin === 'recipe' ? 'From the recipe' : 'Adapted, check the first time'}</span>
+        </div>
+        ${s.steps.map((st) => `
+          <div class="speedi-step">
+            ${st.food ? `<p class="speedi-food">${esc(st.food)}</p>` : ''}
+            <dl class="speedi-grid">
+              ${cell('Setting', st.fn)}${cell('Temperature', `${st.temp}°C`)}${cell('Time', st.time)}${cell('Crisper tray', st.tray)}${cell('Water', st.water || 'None')}
+            </dl>
+            ${st.note ? `<p class="speedi-note">${esc(st.note)}</p>` : ''}
+          </div>`).join('')}
+        ${s.note ? `<p class="speedi-foot">${esc(s.note)}</p>` : ''}
+      </section>`;
+  }
+
   function renderRecipe(id) {
     const r = DATA.recipes.find((x) => x.id === id);
     if (!r) { app.innerHTML = `<section class="recipe"><p class="empty">That recipe isn't in the book. <a href="#/recipes">Back to all recipes</a></p></section>`; return; }
@@ -203,6 +224,7 @@
             ${macro(m.calories, '', 'Kcal')}${macro(m.protein, 'g', 'Protein')}${macro(m.carbs, 'g', 'Carbs')}${macro(m.fat, 'g', 'Fat')}${macro(m.fiber, 'g', 'Fibre')}
           </div>
         </section>
+        ${speediHtml(r.speedi)}
         <div class="recipe-cols">
           <section class="ingredients"><h2>Ingredients</h2><div id="ing">${ingredientsHtml(r, servings)}</div></section>
           <section class="steps">

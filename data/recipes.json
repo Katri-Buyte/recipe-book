@@ -43,6 +43,505 @@
   ],
   "recipes": [
     {
+      "id": "sweet-potato-fries-chili-cheese",
+      "title": "Sweet potato fries with chili cheese",
+      "category": "salads-sides",
+      "description": "Spiced sweet potato wedges topped with a quick beef chili and melted cheese.",
+      "added": "2026-11-22",
+      "servings": 6,
+      "prepMinutes": 20,
+      "cookMinutes": 45,
+      "tags": [
+        "beef",
+        "ninja speedi",
+        "sharing"
+      ],
+      "source": {
+        "name": "The Cozy Apron",
+        "url": "https://thecozyapron.com/baked-sweet-potato-fries-with-chili-cheese/"
+      },
+      "image": "https://thecozyapron.com/wp-content/uploads/2020/04/baked-sweet-potato-fries_thecozyapron_1.jpg",
+      "ingredients": [
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "chilli powder",
+          "group": "Fries"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "ground cumin",
+          "group": "Fries"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "item": "sweet potatoes",
+          "note": "about 1 kg, halved and cut into wedges, skin on",
+          "group": "Fries"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "avocado or olive oil",
+          "group": "Fries"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and black pepper",
+          "group": "Fries"
+        },
+        {
+          "qty": 0.5,
+          "unit": "",
+          "item": "onion",
+          "note": "finely chopped",
+          "group": "Chili topping"
+        },
+        {
+          "qty": 225,
+          "unit": "g",
+          "item": "lean beef mince",
+          "group": "Chili topping"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "pressed",
+          "group": "Chili topping"
+        },
+        {
+          "qty": 1.5,
+          "unit": "tbsp",
+          "item": "tomato paste",
+          "group": "Chili topping"
+        },
+        {
+          "qty": 2,
+          "unit": "tsp",
+          "item": "plain flour",
+          "group": "Chili topping"
+        },
+        {
+          "qty": 60,
+          "unit": "ml",
+          "item": "beef stock or water",
+          "group": "Chili topping"
+        },
+        {
+          "qty": 1.5,
+          "unit": "tbsp",
+          "item": "avocado or olive oil",
+          "group": "Chili topping"
+        },
+        {
+          "qty": 170,
+          "unit": "g",
+          "item": "Monterey Jack or cheddar",
+          "note": "grated",
+          "group": "To finish"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "spring onion or coriander",
+          "note": "chopped",
+          "group": "To finish"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 200°C. Mix the chilli powder and cumin in a small bowl.",
+        "Toss the sweet potato wedges with the oil, salt, pepper and half the spice mix. Spread them in one layer in a cast-iron pan or a lined tray and roast for about 35 minutes, until a knife goes in easily.",
+        "Meanwhile heat the oil for the topping in a large pan over medium-high heat and soften the onion for a couple of minutes.",
+        "Add the mince and break it into fine crumbs. Season with salt, pepper and the rest of the spice mix.",
+        "When the beef is cooked, stir in the garlic, then the tomato paste. Sprinkle in the flour, pour in the stock and simmer briefly until slightly thick. Keep warm.",
+        "Lower the oven to 180°C. Scatter a third of the cheese over the hot wedges, spoon the chili over and top with the rest of the cheese.",
+        "Bake 5 to 10 minutes more until the cheese melts. Finish with spring onion or coriander."
+      ],
+      "speedi": {
+        "origin": "adapted",
+        "steps": [
+          {
+            "food": "Sweet potato wedges, in 2 batches",
+            "fn": "Air Fry",
+            "temp": 200,
+            "time": "18 to 22 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Shake the pot every 6 to 7 minutes. They are ready when a knife goes in easily."
+          },
+          {
+            "food": "Cheese melt",
+            "fn": "Bake/Roast",
+            "temp": 180,
+            "time": "4 to 6 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Put the topped wedges in a small ovenproof dish that fits on the tray, so the cheese does not drip through."
+          }
+        ],
+        "note": "Adapted from the oven method (200°C, about 35 min). Make the chili topping on the hob, or in the pot on Sear/Sauté (tray removed) while no wedges are cooking."
+      },
+      "notes": "Unpeeled, medium sweet potatoes hold their shape best. Ground chicken or turkey works instead of beef. The source lists 510 kcal per serving but no other macros; adding up the ingredients gives about 390, so these macros are my estimate.",
+      "macros": {
+        "calories": 390,
+        "protein": 17,
+        "carbs": 36,
+        "fat": 19,
+        "fiber": 5
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "makaronia-me-kima",
+      "title": "Makaronia me kima, Greek spaghetti with mince",
+      "category": "mains",
+      "description": "Slow-simmered beef mince sauce with brandy, cinnamon, bay and nutmeg over spaghetti with kefalotyri.",
+      "added": "2026-11-22",
+      "servings": 6,
+      "prepMinutes": 15,
+      "cookMinutes": 90,
+      "tags": [
+        "greek",
+        "beef",
+        "batch cooking",
+        "freezer friendly"
+      ],
+      "source": {
+        "name": "Argiro Barbarigou",
+        "url": "https://www.argiro.gr/recipe/makaronia-me-kima-axeperasta/"
+      },
+      "image": "https://www.argiro.gr/wp-content/uploads/2021/12/makaronia-kima-1.jpg",
+      "ingredients": [
+        {
+          "qty": 1,
+          "unit": "kg",
+          "item": "beef mince",
+          "group": "Sauce"
+        },
+        {
+          "qty": 4.5,
+          "unit": "tbsp",
+          "item": "olive oil",
+          "group": "Sauce"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "medium onions",
+          "note": "finely chopped",
+          "group": "Sauce"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "garlic cloves",
+          "note": "crushed",
+          "group": "Sauce"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "medium carrots",
+          "note": "finely grated",
+          "group": "Sauce"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "tomato paste",
+          "group": "Sauce"
+        },
+        {
+          "qty": 120,
+          "unit": "ml",
+          "item": "brandy",
+          "group": "Sauce"
+        },
+        {
+          "qty": 800,
+          "unit": "g",
+          "item": "whole peeled tomatoes",
+          "note": "2 tins of 400 g",
+          "group": "Sauce"
+        },
+        {
+          "qty": 625,
+          "unit": "ml",
+          "item": "hot beef stock or water",
+          "group": "Sauce"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "bay leaves",
+          "group": "Sauce"
+        },
+        {
+          "qty": 0.5,
+          "unit": "",
+          "item": "cinnamon stick",
+          "group": "Sauce"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "pinch of nutmeg",
+          "group": "Sauce"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "parsley sprigs",
+          "group": "Sauce"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and freshly ground pepper",
+          "group": "Sauce"
+        },
+        {
+          "qty": 750,
+          "unit": "g",
+          "item": "spaghetti",
+          "note": "1½ packs",
+          "group": "Pasta"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "a little olive oil",
+          "group": "Pasta"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "grated kefalotyri",
+          "note": "plenty, to serve",
+          "group": "Pasta"
+        }
+      ],
+      "steps": [
+        "Heat the oil in a pot over high heat and brown the mince for 7 to 8 minutes. Stir only now and then so it browns instead of stewing in its juices.",
+        "Push the mince to the sides to make a well, add a few drops of oil and the onion, garlic and carrot. Cook 3 to 4 minutes until soft and glossy but not coloured, then stir everything together.",
+        "Add the tomato paste, rub it into the base of the pot and cook 1 to 2 minutes until fragrant.",
+        "Still on high heat, pour in the brandy and let the alcohol evaporate completely.",
+        "Crush the tomatoes by hand or chop them and add them with the stock. When it boils, seal the pot with baking paper and foil under the lid.",
+        "Lower the heat and simmer for about 1 hour.",
+        "Add salt, pepper, the bay leaves, cinnamon, nutmeg and parsley. Cover again and simmer about 20 minutes more, until the sauce is thick and the mince very tender. Remove the whole spices and parsley.",
+        "Boil the spaghetti, drain, return it to the pot and toss with a little olive oil. Serve with the sauce and grated kefalotyri."
+      ],
+      "notes": "Keep the pot well sealed so the sauce stays rich and does not dry out. The sauce freezes well in portions. Never rinse the pasta in cold water. A full serving is a big plate (about 1,050 kcal); the meal plan uses half. The source gives no macros, so they are estimated, assuming beef mince of about 15% fat and 20 g kefalotyri per plate.",
+      "macros": {
+        "calories": 1050,
+        "protein": 54,
+        "carbs": 100,
+        "fat": 44,
+        "fiber": 6
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "one-pot-chicken-broccoli-pasta",
+      "title": "One pot chicken and broccoli pasta",
+      "category": "mains",
+      "description": "Rigatoni with seared chicken, broccoli, white wine and a cream cheese and sage sauce, finished in one pan.",
+      "added": "2026-11-22",
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "tags": [
+        "greek",
+        "chicken",
+        "quick"
+      ],
+      "source": {
+        "name": "Giorgos Tsoulis",
+        "url": "https://www.giorgostsoulis.com/syntages/kyrios-gevmata/one-pot-pasta"
+      },
+      "image": "https://api.giorgostsoulis.com/storage/media/recipe/5410/conversions/one-pot-pasta-site-8-large.jpg",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "item": "rigatoni",
+          "note": "boiled al dente"
+        },
+        {
+          "qty": 200,
+          "unit": "ml",
+          "item": "pasta cooking water"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "broccoli",
+          "note": "in small florets"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "item": "chicken breasts",
+          "note": "about 400 g, cubed"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "onion",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "garlic clove",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 50,
+          "unit": "ml",
+          "item": "white wine"
+        },
+        {
+          "qty": 300,
+          "unit": "g",
+          "item": "cream cheese"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "dried sage",
+          "note": "crumbled"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "olive oil"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and pepper"
+        }
+      ],
+      "steps": [
+        "Heat a deep frying pan over medium heat with the olive oil and brown the chicken on all sides. Add the broccoli and cook 2 minutes more.",
+        "Add the onion and garlic and cook for 1 to 2 minutes.",
+        "Pour in the wine and let the alcohol cook off, then add the pasta and the pasta water and stir for 1 minute.",
+        "Turn off the heat, add the cream cheese, salt, pepper and sage and stir until the sauce comes together. Serve hot."
+      ],
+      "notes": "A full serving is a big plate (about 800 kcal); the meal plan uses half. The source gives no macros, so they are estimated, assuming 400 g chicken, full-fat cream cheese and 1 tbsp oil.",
+      "macros": {
+        "calories": 805,
+        "protein": 43,
+        "carbs": 97,
+        "fat": 24,
+        "fiber": 6
+      },
+      "macrosEstimated": true
+    },
+    {
+      "id": "chicken-courgette-patties",
+      "title": "Chicken and courgette patties",
+      "category": "mains",
+      "description": "Juicy chicken patties with grated courgette, mozzarella, parmesan and thyme, baked rather than fried.",
+      "added": "2026-11-22",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "tags": [
+        "greek",
+        "chicken",
+        "high protein",
+        "ninja speedi"
+      ],
+      "source": {
+        "name": "Giorgos Tsoulis",
+        "url": "https://www.giorgostsoulis.com/syntages/kyrios-gevmata/mpiftekia-kotopoyloy-me-lakhanika"
+      },
+      "image": "https://api.giorgostsoulis.com/storage/media/recipe/5576/conversions/mpiftekia-kotopoulo-me-laxanika-site-8-large.jpg",
+      "ingredients": [
+        {
+          "qty": 400,
+          "unit": "g",
+          "item": "chicken mince"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "item": "courgettes",
+          "note": "coarsely grated"
+        },
+        {
+          "qty": 80,
+          "unit": "g",
+          "item": "mozzarella",
+          "note": "grated"
+        },
+        {
+          "qty": 70,
+          "unit": "g",
+          "item": "parmesan",
+          "note": "grated"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "item": "medium egg"
+        },
+        {
+          "qty": 1,
+          "unit": "tbsp",
+          "item": "fresh thyme",
+          "note": "finely chopped"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "plain flour"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "salt and pepper"
+        }
+      ],
+      "steps": [
+        "Heat the oven to 200°C fan and line a tray with baking paper.",
+        "Grate the courgettes on the coarse side, salt them and leave for 5 minutes. Squeeze them very well in a clean tea towel and put them in a large bowl.",
+        "Add everything else and knead well (gloves help) until evenly mixed.",
+        "Shape into patties of 80 to 100 g, about 8, and set them on the tray.",
+        "Bake for 20 to 25 minutes, until cooked through. Serve with a salad or roast potatoes."
+      ],
+      "speedi": {
+        "origin": "adapted",
+        "steps": [
+          {
+            "food": "Patties, in one layer (2 batches if they do not fit)",
+            "fn": "Air Fry",
+            "temp": 190,
+            "time": "14 to 16 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Brush the tray with a little oil instead of using baking paper. Turn the patties halfway."
+          }
+        ],
+        "note": "Adapted from the oven method (200°C fan, 20 to 25 min). Chicken must reach 74°C in the middle; check the first batch."
+      },
+      "notes": "Chilling the mince for an hour before mixing gives more flavour. One serving is 2 patties. The source gives no macros, so they are estimated from the ingredients.",
+      "macros": {
+        "calories": 305,
+        "protein": 35,
+        "carbs": 6,
+        "fat": 18,
+        "fiber": 1
+      },
+      "macrosEstimated": true
+    },
+    {
       "id": "air-fryer-pork-chops-potatoes",
       "title": "Air fryer pork chops with potatoes",
       "category": "mains",
@@ -56,7 +555,8 @@
         "air fryer",
         "high protein",
         "gluten free",
-        "dairy free"
+        "dairy free",
+        "ninja speedi"
       ],
       "source": {
         "name": "Akis Petretzikis",
@@ -151,7 +651,31 @@
         "fat": 55,
         "fiber": 8
       },
-      "macrosEstimated": false
+      "macrosEstimated": false,
+      "speedi": {
+        "origin": "adapted",
+        "steps": [
+          {
+            "food": "Potato chips",
+            "fn": "Air Fry",
+            "temp": 200,
+            "time": "25 to 30 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Shake every 8 to 10 minutes."
+          },
+          {
+            "food": "Pork chops",
+            "fn": "Air Fry",
+            "temp": 200,
+            "time": "18 to 25 min",
+            "tray": "Bottom",
+            "water": "None",
+            "note": "Turn halfway. Pork is done at 63°C in the middle; rest 3 minutes."
+          }
+        ],
+        "note": "The Speedi has one pot, so cook the potatoes and the chops one after the other, as the recipe says for single-basket air fryers. Keep the first batch warm in a low oven. Times are adapted from the recipe’s 30 minutes at 200°C; check the chops from 18 minutes."
+      }
     },
     {
       "id": "salmon-feta-pasta-red-peppers",
@@ -916,7 +1440,7 @@
         "Rinse and dry the potato cubes, then toss them in a bowl with the oil, salt, pepper and paprika.",
         "Pour the water into the Speedi pot and set the crisper tray in the bottom position.",
         "Spread the potatoes on the tray, close the lid and flip the switch to Rapid Cooker.",
-        "Select Steam & Crisp at 230°C for 15 minutes and press start. It steams for about 4 minutes before it starts crisping.",
+        "Select Steam Air Fry (Steam & Crisp on US models) at 220°C for 15 to 17 minutes and press start. It steams for about 4 minutes before it starts crisping.",
         "Tip onto a plate and serve."
       ],
       "notes": "The steam stage works like parboiling, which helps the outside crisp.",
@@ -927,7 +1451,22 @@
         "fat": 7,
         "fiber": 5
       },
-      "macrosEstimated": false
+      "macrosEstimated": false,
+      "speedi": {
+        "origin": "recipe",
+        "steps": [
+          {
+            "food": "Potato cubes",
+            "fn": "Steam Air Fry (Steam & Crisp on US models)",
+            "temp": 220,
+            "time": "15 to 17 min",
+            "tray": "Bottom",
+            "water": "120 ml in the pot",
+            "note": "It steams for about 4 minutes before crisping starts."
+          }
+        ],
+        "note": "The recipe uses 230°C on the US model. The UK/EU model tops out at 220°C on this function, so add a minute or two if they need more colour."
+      }
     },
     {
       "id": "kreatosoupa-beef-soup",
