@@ -43,6 +43,89 @@
   ],
   "recipes": [
     {
+      "id": "brownie-energy-balls",
+      "title": "Brownie energy balls",
+      "category": "snacks",
+      "description": "No-bake bites of dates, walnuts, oats, peanut butter and cocoa that taste like brownie.",
+      "added": "2026-11-22",
+      "servings": 25,
+      "prepMinutes": 15,
+      "cookMinutes": 0,
+      "tags": [
+        "no bake",
+        "vegan",
+        "snack prep",
+        "blender"
+      ],
+      "source": {
+        "name": "everyBody.rocks on Facebook",
+        "url": "https://www.facebook.com/reel/1851973809148239"
+      },
+      "image": "",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "item": "small dates",
+          "note": "about 27 to 30, pitted"
+        },
+        {
+          "qty": 150,
+          "unit": "g",
+          "item": "walnuts",
+          "note": "about 1½ cups"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "item": "rolled oats",
+          "note": "about ¾ cup"
+        },
+        {
+          "qty": 2,
+          "unit": "tbsp",
+          "item": "peanut butter"
+        },
+        {
+          "qty": 1,
+          "unit": "tsp",
+          "item": "cocoa powder"
+        },
+        {
+          "qty": 0.5,
+          "unit": "tsp",
+          "item": "vanilla extract"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "pinch of salt"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "item": "melted dark chocolate and flaky salt",
+          "note": "optional, for coating"
+        }
+      ],
+      "steps": [
+        "Soak the dates in hot water for about 10 minutes, then drain.",
+        "If your blender is not very strong, blitz the walnuts on their own first.",
+        "Add everything else and blend until it forms a smooth dough; it will start clumping into one big ball.",
+        "If the dough is too wet, add a little more oats or walnuts. If it is too dry, add one or two more dates or a little peanut butter.",
+        "Roll into 25 balls. If you like, dip them in melted dark chocolate and sprinkle with a little flaky salt."
+      ],
+      "notes": "One serving is 1 ball. Keep them in a closed box in the fridge. Dates make them quite sweet, so they sit best next to a protein snack like Greek yogurt. The macros are estimated from the ingredients, without the chocolate coating.",
+      "macros": {
+        "calories": 84,
+        "protein": 2,
+        "carbs": 10,
+        "fat": 5,
+        "fiber": 2
+      },
+      "macrosEstimated": true
+    },
+    {
       "id": "avocado-toast-egg",
       "title": "Avocado toast with egg",
       "category": "breakfast",
